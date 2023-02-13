@@ -1,22 +1,24 @@
+package edu.andrlis.bookscatalog.entity;
+
 /**
  * @author Andrei Lisouski (Andrlis)
- * @created 13/02/2023 - 02:01
+ * @created 13/02/2023 - 01:46
  */
-public class Publisher extends CatalogItem{
+public class Author extends AbstractCatalogItem {
     private String name;
 
-    public Publisher(long id, String name) {
+    public Author(long id, String name) {
         super(id);
         this.name = name;
     }
 
-    public Publisher() {
+    public Author() {
         super();
     }
 
-    public Publisher(Publisher publisher) {
-        super(publisher.getId());
-        this.name = publisher.getName();
+    public Author(Author author) {
+        super(author.getId());
+        this.name = author.getName();
     }
 
     public String getName() {
@@ -29,7 +31,7 @@ public class Publisher extends CatalogItem{
 
     @Override
     public String toString() {
-        return "Publisher{" +
+        return "edu.andrlis.bookscatalog.entities.Author{" +
                 "id=" + this.getId() +
                 ", name='" + name + '\'' +
                 '}';

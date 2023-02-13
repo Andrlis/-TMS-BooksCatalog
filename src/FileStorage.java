@@ -1,3 +1,5 @@
+import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
+
 import java.util.List;
 
 /**
@@ -7,17 +9,17 @@ import java.util.List;
 public class FileStorage implements Storable{
 
     @Override
-    public void save(CatalogItem item) {
+    public void save(AbstractCatalogItem item) {
 
     }
 
     @Override
-    public void save(List<CatalogItem> listOfItems) {
+    public void save(List<AbstractCatalogItem> listOfItems) {
 
     }
 
     @Override
-    public List<CatalogItem> getAll() {
+    public List<AbstractCatalogItem> getAll() {
         return null;
     }
 }

@@ -1,8 +1,10 @@
+package edu.andrlis.bookscatalog.entity;
+
 /**
  * @author Andrei Lisouski (Andrlis)
  * @created 12/02/2023 - 23:13
  */
-public class Book extends CatalogItem{
+public class Book extends AbstractCatalogItem {
 
     private String title;
     private String author;
@@ -74,7 +76,7 @@ public class Book extends CatalogItem{
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "edu.andrlis.bookscatalog.entities.Book{" +
                 "id=" + this.getId() +
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +

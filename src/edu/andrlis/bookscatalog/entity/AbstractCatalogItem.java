@@ -1,16 +1,18 @@
+package edu.andrlis.bookscatalog.entity;
+
 /**
  * @author Andrei Lisouski (Andrlis)
  * @created 13/02/2023 - 00:00
  */
-public abstract class CatalogItem {
+public abstract class AbstractCatalogItem {
 
     private long id;
 
-    public CatalogItem(long id) {
+    public AbstractCatalogItem(long id) {
         this.id = id;
     }
 
-    public CatalogItem() {
+    public AbstractCatalogItem() {
 
     }
 

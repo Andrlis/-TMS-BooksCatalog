@@ -1,3 +1,5 @@
+import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
+
 import java.util.List;
 
 /**
@@ -6,9 +8,9 @@ import java.util.List;
  */
 public interface Storable {
 
-    void save(CatalogItem item);
-    void save(List<CatalogItem> listOfItems);
+    void save(AbstractCatalogItem item);
+    void save(List<AbstractCatalogItem> listOfItems);
 
-    List<CatalogItem> getAll();
+    List<AbstractCatalogItem> getAll();
 
 }
