@@ -12,6 +12,11 @@ public class Author extends AbstractCatalogItem {
         this.name = name;
     }
 
+    public Author(String name) {
+        super();
+        this.name = name;
+    }
+
     public Author() {
         super();
     }

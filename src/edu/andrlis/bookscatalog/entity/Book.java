@@ -7,13 +7,22 @@ package edu.andrlis.bookscatalog.entity;
 public class Book extends AbstractCatalogItem {
 
     private String title;
-    private String author;
+    private Author author;
     private String genre;
     private int rating;
-    private String publisher;
+    private Publisher publisher;
 
-    public Book(long id, String title, String author, String genre, int rating, String publisher) {
+    public Book(long id, String title, Author author, String genre, int rating, Publisher publisher) {
         super(id);
+        this.title = title;
+        this.author = author;
+        this.genre = genre;
+        this.rating = rating;
+        this.publisher = publisher;
+    }
+
+    public Book(String title, Author author, String genre, int rating, Publisher publisher) {
+        super();
         this.title = title;
         this.author = author;
         this.genre = genre;
@@ -42,11 +51,11 @@ public class Book extends AbstractCatalogItem {
         this.title = title;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(Author author) {
         this.author = author;
     }
 
@@ -66,11 +75,11 @@ public class Book extends AbstractCatalogItem {
         this.rating = rating;
     }
 
-    public String getPublisher() {
+    public Publisher getPublisher() {
         return publisher;
     }
 
-    public void setPublisher(String publisher) {
+    public void setPublisher(Publisher publisher) {
         this.publisher = publisher;
     }
 

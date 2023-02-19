@@ -12,6 +12,11 @@ public class Publisher extends AbstractCatalogItem {
         this.name = name;
     }
 
+    public Publisher(String name) {
+        super();
+        this.name = name;
+    }
+
     public Publisher() {
         super();
     }

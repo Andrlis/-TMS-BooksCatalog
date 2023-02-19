@@ -26,13 +26,14 @@ public class BookDatasetReader {
     }
 
     private DatasetEntity convertStringToDatasetEntity(String inputString) {
-        System.out.println(inputString);
-        String[] entityParameters = inputString.split(","); //Should be split by regexp because author is a combination of name and surname that split by comma
-        String title = entityParameters[0];
-        String author = entityParameters[1];
-        String genre = entityParameters[2];
+        String[] entityParameters = inputString.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1); //Should be split by regexp because author is a combination of name and surname that split by comma
+        String title = entityParameters[0].replaceAll("\"", "");
+        String author = entityParameters[1].replaceAll("\"", "");
+        String genre = entityParameters[2].replaceAll("\"", "");
         float height = Float.parseFloat(entityParameters[3]);
-        String publisher = entityParameters[4];
+        String publisher = entityParameters[4].replaceAll("\"", "");
         return new DatasetEntity(title, author, genre, height, publisher);
     }
+
+
 }
