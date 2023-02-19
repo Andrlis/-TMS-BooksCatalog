@@ -1,3 +1,4 @@
+import edu.andrlis.bookscatalog.entity.Author;
 import edu.andrlis.bookscatalog.utils.dataset.BookDatasetReader;
 import edu.andrlis.bookscatalog.utils.dataset.DatasetEntity;
 
@@ -11,10 +12,13 @@ public class Main {
     public static void main(String[] args) {
         BookDatasetReader datasetReader = new BookDatasetReader();
         List<DatasetEntity> dataset = datasetReader.readDataset();
+        List<Author> authors = datasetReader.getAuthors(dataset);
 
-        for(DatasetEntity entity: dataset) {
-            System.out.println(entity.toString());
-        }
+        authors.stream().forEach(System.out::println);
+
+//        for(DatasetEntity entity: dataset) {
+//            System.out.println(entity.toString());
+//        }
 
     }
 }

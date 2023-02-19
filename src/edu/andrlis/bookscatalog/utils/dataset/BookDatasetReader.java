@@ -1,8 +1,11 @@
 package edu.andrlis.bookscatalog.utils.dataset;
 
+import edu.andrlis.bookscatalog.entity.Author;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author Andrei Lisouski (Andrlis)
@@ -35,5 +38,7 @@ public class BookDatasetReader {
         return new DatasetEntity(title, author, genre, height, publisher);
     }
 
-
+    public List<Author> getAuthors(List<DatasetEntity> dataset){
+        return dataset.stream().map(datasetEntity -> new Author(datasetEntity.getAuthor())).collect(Collectors.toList());
+    }
 }
