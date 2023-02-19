@@ -1,7 +1,15 @@
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import edu.andrlis.bookscatalog.dataset.BookDatasetEntity;
+import edu.andrlis.bookscatalog.dataset.BookDatasetService;
 import edu.andrlis.bookscatalog.entity.Author;
-import edu.andrlis.bookscatalog.utils.dataset.BookDatasetReader;
-import edu.andrlis.bookscatalog.utils.dataset.DatasetEntity;
+import edu.andrlis.bookscatalog.dataset.BookDatasetReader;
+import edu.andrlis.bookscatalog.entity.Book;
+import edu.andrlis.bookscatalog.entity.Publisher;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -11,14 +19,55 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         BookDatasetReader datasetReader = new BookDatasetReader();
-        List<DatasetEntity> dataset = datasetReader.readDataset();
-        List<Author> authors = datasetReader.getAuthors(dataset);
+        BookDatasetService bookDatasetService = new BookDatasetService();
 
-        authors.stream().forEach(System.out::println);
+        List<BookDatasetEntity> dataset = datasetReader.readDataset();
+        List<Author> authors = bookDatasetService.getAuthors(dataset);
+        List<Publisher> publishers = bookDatasetService.getPublisher(dataset);
+        List<Book> books = bookDatasetService.getBooks(dataset, authors, publishers);
 
-//        for(DatasetEntity entity: dataset) {
-//            System.out.println(entity.toString());
-//        }
+        System.out.println("Authors:");
+        authors.forEach(System.out::println);
+        System.out.println("Publishers:");
+        publishers.forEach(System.out::println);
+        System.out.println("Books:");
+        books.forEach(System.out::println);
+
+        GsonBuilder gsonBuilder = new GsonBuilder();
+        Gson gson = gsonBuilder.create();
+
+        String authorsJson = gson.toJson(authors);
+        String publishersJson = gson.toJson(publishers);
+        String booksJson = gson.toJson(books);
+
+        FileOutputStream fileOutputStream =
+                null;
+        try {
+            fileOutputStream = new FileOutputStream("resources/authors.json", true);
+            fileOutputStream.write(authorsJson.getBytes());
+            fileOutputStream.write(10);
+            fileOutputStream.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            fileOutputStream = new FileOutputStream("resources/publishers.json", true);
+            fileOutputStream.write(publishersJson.getBytes());
+            fileOutputStream.write(10);
+            fileOutputStream.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            fileOutputStream = new FileOutputStream("resources/books.json", true);
+            fileOutputStream.write(booksJson.getBytes());
+            fileOutputStream.write(10);
+            fileOutputStream.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 }

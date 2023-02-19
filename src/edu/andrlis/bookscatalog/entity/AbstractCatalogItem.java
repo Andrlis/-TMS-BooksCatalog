@@ -30,6 +30,6 @@ public abstract class AbstractCatalogItem {
 
     private long generateId(){
         Random random = new Random();
-        return LocalDateTime.now().getLong(ChronoField.NANO_OF_SECOND) + random.nextLong();
+        return Math.abs(LocalDateTime.now().getLong(ChronoField.NANO_OF_SECOND) + random.nextLong());
     }
 }

@@ -1,11 +1,8 @@
-package edu.andrlis.bookscatalog.utils.dataset;
-
-import edu.andrlis.bookscatalog.entity.Author;
+package edu.andrlis.bookscatalog.dataset;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @author Andrei Lisouski (Andrlis)
@@ -15,8 +12,8 @@ public class BookDatasetReader {
 
     private File datasetFile = new File("resources/books.csv");
 
-    public List<DatasetEntity> readDataset() {
-        List<DatasetEntity> datasetEntities = new ArrayList<>();
+    public List<BookDatasetEntity> readDataset() {
+        List<BookDatasetEntity> datasetEntities = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(this.datasetFile))) {
             String line = reader.readLine(); //Skip first line from file
             while ((line = reader.readLine()) != null) {
@@ -28,17 +25,13 @@ public class BookDatasetReader {
         return datasetEntities;
     }
 
-    private DatasetEntity convertStringToDatasetEntity(String inputString) {
+    private BookDatasetEntity convertStringToDatasetEntity(String inputString) {
         String[] entityParameters = inputString.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1); //Should be split by regexp because author is a combination of name and surname that split by comma
         String title = entityParameters[0].replaceAll("\"", "");
         String author = entityParameters[1].replaceAll("\"", "");
         String genre = entityParameters[2].replaceAll("\"", "");
         float height = Float.parseFloat(entityParameters[3]);
         String publisher = entityParameters[4].replaceAll("\"", "");
-        return new DatasetEntity(title, author, genre, height, publisher);
-    }
-
-    public List<Author> getAuthors(List<DatasetEntity> dataset){
-        return dataset.stream().map(datasetEntity -> new Author(datasetEntity.getAuthor())).collect(Collectors.toList());
+        return new BookDatasetEntity(title, author, genre, height, publisher);
     }
 }

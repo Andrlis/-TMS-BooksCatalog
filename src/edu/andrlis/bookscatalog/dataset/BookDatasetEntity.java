@@ -1,17 +1,17 @@
-package edu.andrlis.bookscatalog.utils.dataset;
+package edu.andrlis.bookscatalog.dataset;
 
 /**
  * @author Andrei Lisouski (Andrlis)
  * @created 14/02/2023 - 1:10
  */
-public class DatasetEntity {
+public class BookDatasetEntity {
     private String title;
     private String author;
     private String genre;
     private float height;
     private String publisher;
 
-    public DatasetEntity(String title, String author, String genre, float height, String publisher) {
+    public BookDatasetEntity(String title, String author, String genre, float height, String publisher) {
         this.title = title;
         this.author = author;
         this.genre = genre;
@@ -61,7 +61,7 @@ public class DatasetEntity {
 
     @Override
     public String toString() {
-        return "DatasetEntity{" +
+        return "BookDatasetEntity{" +
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", genre='" + genre + '\'' +
