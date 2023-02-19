@@ -9,6 +9,7 @@ import java.util.List;
 public interface Storable {
 
     void save(AbstractCatalogItem item);
+
     void save(List<AbstractCatalogItem> listOfItems);
 
     List<AbstractCatalogItem> getAll();

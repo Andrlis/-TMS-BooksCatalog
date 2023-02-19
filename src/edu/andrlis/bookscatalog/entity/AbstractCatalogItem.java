@@ -28,7 +28,7 @@ public abstract class AbstractCatalogItem {
         this.id = id;
     }
 
-    private long generateId(){
+    private long generateId() {
         Random random = new Random();
         return Math.abs(LocalDateTime.now().getLong(ChronoField.NANO_OF_SECOND) + random.nextLong());
     }

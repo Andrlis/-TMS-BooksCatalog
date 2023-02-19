@@ -25,7 +25,7 @@ public class BookDatasetService {
     public List<Book> getBooks(List<BookDatasetEntity> dataset, List<Author> authors, List<Publisher> publishers) {
         List<Book> bookList = new ArrayList<>();
 
-        for (BookDatasetEntity datasetEntity: dataset) {
+        for (BookDatasetEntity datasetEntity : dataset) {
             Book book = new Book();
             book.setTitle(datasetEntity.getTitle());
             book.setGenre(datasetEntity.getGenre());
@@ -42,18 +42,18 @@ public class BookDatasetService {
         return bookList;
     }
 
-    private Author findAuthorByName(List<Author>  authors, String authorName){
-        for (Author author: authors) {
-            if (author.getName().equals(authorName)){
+    private Author findAuthorByName(List<Author> authors, String authorName) {
+        for (Author author : authors) {
+            if (author.getName().equals(authorName)) {
                 return new Author(author);
             }
         }
         return null;
     }
 
-    private Publisher findPublisherByName(List<Publisher>  publishers, String publisherName){
-        for (Publisher publisher: publishers) {
-            if (publisher.getName().equals(publisherName)){
+    private Publisher findPublisherByName(List<Publisher> publishers, String publisherName) {
+        for (Publisher publisher : publishers) {
+            if (publisher.getName().equals(publisherName)) {
                 return new Publisher(publisher);
             }
         }

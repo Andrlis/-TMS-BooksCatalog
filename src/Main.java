@@ -18,56 +18,59 @@ import java.util.List;
  */
 public class Main {
     public static void main(String[] args) {
-        BookDatasetReader datasetReader = new BookDatasetReader();
-        BookDatasetService bookDatasetService = new BookDatasetService();
+//        BookDatasetReader datasetReader = new BookDatasetReader();
+//        BookDatasetService bookDatasetService = new BookDatasetService();
+//
+//        List<BookDatasetEntity> dataset = datasetReader.readDataset();
+//        List<Author> authors = bookDatasetService.getAuthors(dataset);
+//        List<Publisher> publishers = bookDatasetService.getPublisher(dataset);
+//        List<Book> books = bookDatasetService.getBooks(dataset, authors, publishers);
+//
+//        System.out.println("Authors:");
+//        authors.forEach(System.out::println);
+//        System.out.println("Publishers:");
+//        publishers.forEach(System.out::println);
+//        System.out.println("Books:");
+//        books.forEach(System.out::println);
+//
+//        GsonBuilder gsonBuilder = new GsonBuilder();
+//        Gson gson = gsonBuilder.create();
 
-        List<BookDatasetEntity> dataset = datasetReader.readDataset();
-        List<Author> authors = bookDatasetService.getAuthors(dataset);
-        List<Publisher> publishers = bookDatasetService.getPublisher(dataset);
-        List<Book> books = bookDatasetService.getBooks(dataset, authors, publishers);
+//        String authorsJson = gson.toJson(authors);
+//        String publishersJson = gson.toJson(publishers);
+//        String booksJson = gson.toJson(books);
+//
+//        FileOutputStream fileOutputStream =
+//                null;
+//        try {
+//            fileOutputStream = new FileOutputStream("resources/authors.json", true);
+//            fileOutputStream.write(authorsJson.getBytes());
+//            fileOutputStream.write(10);
+//            fileOutputStream.close();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//
+//        try {
+//            fileOutputStream = new FileOutputStream("resources/publishers.json", true);
+//            fileOutputStream.write(publishersJson.getBytes());
+//            fileOutputStream.write(10);
+//            fileOutputStream.close();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//
+//        try {
+//            fileOutputStream = new FileOutputStream("resources/books.json", true);
+//            fileOutputStream.write(booksJson.getBytes());
+//            fileOutputStream.write(10);
+//            fileOutputStream.close();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
 
-        System.out.println("Authors:");
-        authors.forEach(System.out::println);
-        System.out.println("Publishers:");
-        publishers.forEach(System.out::println);
-        System.out.println("Books:");
-        books.forEach(System.out::println);
-
-        GsonBuilder gsonBuilder = new GsonBuilder();
-        Gson gson = gsonBuilder.create();
-
-        String authorsJson = gson.toJson(authors);
-        String publishersJson = gson.toJson(publishers);
-        String booksJson = gson.toJson(books);
-
-        FileOutputStream fileOutputStream =
-                null;
-        try {
-            fileOutputStream = new FileOutputStream("resources/authors.json", true);
-            fileOutputStream.write(authorsJson.getBytes());
-            fileOutputStream.write(10);
-            fileOutputStream.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-        try {
-            fileOutputStream = new FileOutputStream("resources/publishers.json", true);
-            fileOutputStream.write(publishersJson.getBytes());
-            fileOutputStream.write(10);
-            fileOutputStream.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-        try {
-            fileOutputStream = new FileOutputStream("resources/books.json", true);
-            fileOutputStream.write(booksJson.getBytes());
-            fileOutputStream.write(10);
-            fileOutputStream.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
+        FileStorageService booksFileStorageService = new FileStorageService("resources/books.json");
+        List bookList = booksFileStorageService.getAll();
+        bookList.forEach(System.out::println);
     }
 }
