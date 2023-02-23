@@ -1,17 +1,19 @@
 import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
+import edu.andrlis.bookscatalog.entity.Book;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 /**
  * @author Andrei Lisouski (Andrlis)
  * @created 12/02/2023 - 23:54
  */
-public interface Storable {
+public interface Storable<T> {
 
-    void save(AbstractCatalogItem item);
+    void save(T item);
 
-    void save(List<AbstractCatalogItem> listOfItems);
+    void save(List<T> listOfItems);
 
-    List<AbstractCatalogItem> getAll();
+    List<T> getAll(Type type);
 
 }

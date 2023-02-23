@@ -2,14 +2,15 @@ import com.google.gson.Gson;
 import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 
 import java.io.*;
-import java.util.ArrayList;
+import java.lang.reflect.Type;
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author Andrei Lisouski (Andrlis)
  * @created 13/02/2023 - 00:44
  */
-public class FileStorageService implements Storable {
+public class FileStorageService<T> implements Storable<T> {
 
     private String filePath;
 
@@ -18,7 +19,7 @@ public class FileStorageService implements Storable {
     }
 
     @Override
-    public void save(AbstractCatalogItem item) {
+    public void save(T item) {
         Gson gson = new Gson();
         try (FileOutputStream fileOutputStream =
                      new FileOutputStream(filePath, true)) {
@@ -30,7 +31,7 @@ public class FileStorageService implements Storable {
     }
 
     @Override
-    public void save(List<AbstractCatalogItem> listOfItems) {
+    public void save(List<T> listOfItems) {
         Gson gson = new Gson();
         try (FileOutputStream fileOutputStream =
                      new FileOutputStream(filePath, false)) {
@@ -41,15 +42,15 @@ public class FileStorageService implements Storable {
         }
     }
 
-    @Override
-    public List getAll() {
+    public List<T> getAll(Type type) {
         Gson gson = new Gson();
-        List result = new ArrayList<>();
+        List<T> result = null;
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(this.filePath))) {
-            result = gson.fromJson(bufferedReader, List.class);
+            result = gson.fromJson(bufferedReader, type);
         } catch (IOException e) {
             System.err.println(e);
         }
         return result;
     }
+
 }

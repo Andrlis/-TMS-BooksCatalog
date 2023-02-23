@@ -1,7 +1,9 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import edu.andrlis.bookscatalog.dataset.BookDatasetEntity;
 import edu.andrlis.bookscatalog.dataset.BookDatasetService;
+import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 import edu.andrlis.bookscatalog.entity.Author;
 import edu.andrlis.bookscatalog.dataset.BookDatasetReader;
 import edu.andrlis.bookscatalog.entity.Book;
@@ -10,6 +12,7 @@ import edu.andrlis.bookscatalog.entity.Publisher;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.lang.reflect.TypeVariable;
 import java.util.List;
 
 /**
@@ -69,8 +72,8 @@ public class Main {
 //            throw new RuntimeException(e);
 //        }
 
-        FileStorageService booksFileStorageService = new FileStorageService("resources/books.json");
-        List bookList = booksFileStorageService.getAll();
+        FileStorageService<Book> booksFileStorageService = new FileStorageService<Book>("resources/books.json");
+        List<Book> bookList = booksFileStorageService.getAll(new TypeToken<List<Book>>(){}.getType());
         bookList.forEach(System.out::println);
     }
 }
