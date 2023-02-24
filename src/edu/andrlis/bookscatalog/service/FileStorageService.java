@@ -1,8 +1,11 @@
+package edu.andrlis.bookscatalog.service;
+
 import com.google.gson.Gson;
 import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 
 import java.io.*;
 import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -44,7 +47,7 @@ public class FileStorageService<T> implements Storable<T> {
 
     public List<T> getAll(Type type) {
         Gson gson = new Gson();
-        List<T> result = null;
+        List<T> result = new ArrayList<>();
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(this.filePath))) {
             result = gson.fromJson(bufferedReader, type);
         } catch (IOException e) {

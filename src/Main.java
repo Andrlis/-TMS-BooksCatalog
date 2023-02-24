@@ -1,19 +1,12 @@
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import edu.andrlis.bookscatalog.dataset.BookDatasetEntity;
-import edu.andrlis.bookscatalog.dataset.BookDatasetService;
-import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 import edu.andrlis.bookscatalog.entity.Author;
-import edu.andrlis.bookscatalog.dataset.BookDatasetReader;
 import edu.andrlis.bookscatalog.entity.Book;
-import edu.andrlis.bookscatalog.entity.Publisher;
+import edu.andrlis.bookscatalog.service.AuthorCatalogService;
+import edu.andrlis.bookscatalog.service.CatalogService;
+import edu.andrlis.bookscatalog.service.FileStorageService;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.lang.reflect.TypeVariable;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author Andrei Lisouski (Andrlis)
@@ -72,8 +65,17 @@ public class Main {
 //            throw new RuntimeException(e);
 //        }
 
-        FileStorageService<Book> booksFileStorageService = new FileStorageService<Book>("resources/books.json");
-        List<Book> bookList = booksFileStorageService.getAll(new TypeToken<List<Book>>(){}.getType());
-        bookList.forEach(System.out::println);
+        FileStorageService<Author> authorFileStorageService = new FileStorageService<>("resources/authors.json");
+        CatalogService authorCatalogService = new AuthorCatalogService();
+        List<Author> authorsList = authorFileStorageService.getAll(new TypeToken<List<Author>>(){}.getType());
+//        Optional<Author> searchResult = authorCatalogService.searchById(4406006010904375003l, authorsList);
+        Optional<Author> searchResult = authorCatalogService.searchById(1, authorsList);
+
+        Author author = searchResult.orElse(new Author());
+        System.out.println(author.toString());
+//        if(searchResult.isPresent()){
+//            Author author = searchResult.get();
+//            System.out.println(author.toString());
+//        }
     }
 }

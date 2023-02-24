@@ -1,3 +1,5 @@
+package edu.andrlis.bookscatalog.service;
+
 import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 import edu.andrlis.bookscatalog.entity.Book;
 
