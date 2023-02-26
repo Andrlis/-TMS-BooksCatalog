@@ -5,25 +5,21 @@ package edu.andrlis.bookscatalog.entity;
  * @created 12/02/2023 - 23:13
  */
 public class Book extends AbstractCatalogItem {
-
-    private String title;
     private Author author;
     private String genre;
     private int rating;
     private Publisher publisher;
 
-    public Book(long id, String title, Author author, String genre, int rating, Publisher publisher) {
-        super(id);
-        this.title = title;
+    public Book(long id, String name, Author author, String genre, int rating, Publisher publisher) {
+        super(id, name);
         this.author = author;
         this.genre = genre;
         this.rating = rating;
         this.publisher = publisher;
     }
 
-    public Book(String title, Author author, String genre, int rating, Publisher publisher) {
-        super();
-        this.title = title;
+    public Book(String name, Author author, String genre, int rating, Publisher publisher) {
+        super(name);
         this.author = author;
         this.genre = genre;
         this.rating = rating;
@@ -35,20 +31,11 @@ public class Book extends AbstractCatalogItem {
     }
 
     public Book(Book book) {
-        super(book.getId());
-        this.title = book.getTitle();
+        super(book.getId(), book.getName());
         this.author = book.getAuthor();
         this.genre = book.getGenre();
         this.rating = book.getRating();
         this.publisher = book.getPublisher();
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public Author getAuthor() {
@@ -87,7 +74,7 @@ public class Book extends AbstractCatalogItem {
     public String toString() {
         return "edu.andrlis.bookscatalog.entities.Book{" +
                 "id=" + this.getId() +
-                ", title='" + title + '\'' +
+                ", name='" + this.getName() + '\'' +
                 ", author='" + author + '\'' +
                 ", genre='" + genre + '\'' +
                 ", rating=" + rating +

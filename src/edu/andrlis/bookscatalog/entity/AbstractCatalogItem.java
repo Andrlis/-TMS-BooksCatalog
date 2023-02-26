@@ -11,9 +11,16 @@ import java.util.Random;
 public abstract class AbstractCatalogItem {
 
     private long id;
+    private String name;
 
-    public AbstractCatalogItem(long id) {
+    public AbstractCatalogItem(long id, String name) {
         this.id = id;
+        this.name = name;
+    }
+
+    public AbstractCatalogItem(String name) {
+        this.id = generateId();
+        this.name = name;
     }
 
     public AbstractCatalogItem() {
@@ -26,6 +33,14 @@ public abstract class AbstractCatalogItem {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     private long generateId() {

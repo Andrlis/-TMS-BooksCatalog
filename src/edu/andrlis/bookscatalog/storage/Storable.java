@@ -1,4 +1,4 @@
-package edu.andrlis.bookscatalog.service;
+package edu.andrlis.bookscatalog.storage;
 
 import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 import edu.andrlis.bookscatalog.entity.Book;

@@ -5,16 +5,12 @@ package edu.andrlis.bookscatalog.entity;
  * @created 13/02/2023 - 02:01
  */
 public class Publisher extends AbstractCatalogItem {
-    private String name;
-
     public Publisher(long id, String name) {
-        super(id);
-        this.name = name;
+        super(id, name);
     }
 
     public Publisher(String name) {
-        super();
-        this.name = name;
+        super(name);
     }
 
     public Publisher() {
@@ -22,23 +18,14 @@ public class Publisher extends AbstractCatalogItem {
     }
 
     public Publisher(Publisher publisher) {
-        super(publisher.getId());
-        this.name = publisher.getName();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+        super(publisher.getId(), publisher.getName());
     }
 
     @Override
     public String toString() {
         return "edu.andrlis.bookscatalog.entities.Publisher{" +
                 "id=" + this.getId() +
-                ", name='" + name + '\'' +
+                ", name='" + this.getName() + '\'' +
                 '}';
     }
 }

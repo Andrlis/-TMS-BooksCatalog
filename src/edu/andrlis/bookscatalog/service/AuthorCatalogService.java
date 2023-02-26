@@ -37,4 +37,7 @@ public class AuthorCatalogService implements CatalogService<Author> {
     @Override
     public void addNewItem(Author item, List<Author> entities) {
     }
+
+    @Override
+    public void deleteItem(Author item, List<Author> entities){}
 }

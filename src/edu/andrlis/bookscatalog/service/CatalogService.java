@@ -15,4 +15,6 @@ public interface CatalogService<T> {
     Optional<T> searchById(long id, List<T> entities);
 
     void addNewItem(T item, List<T> entities);
+
+    void deleteItem(T item, List<T> entities);
 }

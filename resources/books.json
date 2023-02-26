@@ -1,1 +1,2956 @@
-[{"title":"Fundamentals of Wavelets","author":{"name":"Goswami, Jaideva","id":4406006010904375003},"genre":"signal_processing","rating":0,"publisher":{"name":"Wiley","id":4860304272421464296},"id":8057715356274027487},{"title":"Data Smart","author":{"name":"Foreman, John","id":5704287268067975145},"genre":"data_science","rating":0,"publisher":{"name":"Wiley","id":4860304272421464296},"id":1633549872105332532},{"title":"God Created the Integers","author":{"name":"Hawking, Stephen","id":2644509434667365931},"genre":"mathematics","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":8098875534798991376},{"title":"Superfreakonomics","author":{"name":"Dubner, Stephen","id":8058734029351112978},"genre":"economics","rating":0,"publisher":{"name":"HarperCollins","id":9204877535364297115},"id":2512833123405319991},{"title":"Orientalism","author":{"name":"Said, Edward","id":3769231722567864474},"genre":"history","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":2669748707432020742},{"title":"Nature of Statistical Learning Theory, The","author":{"name":"Vapnik, Vladimir","id":1679949190180002739},"genre":"data_science","rating":0,"publisher":{"name":"Springer","id":8350632895355790801},"id":3832053628977839987},{"title":"Integration of the Indian States","author":{"name":"Menon, V P","id":1300875934621895906},"genre":"history","rating":0,"publisher":{"name":"Orient Blackswan","id":4319312491977944718},"id":1268484286310393769},{"title":"Drunkard\u0027s Walk, The","author":{"name":"Mlodinow, Leonard","id":88796432510382432},"genre":"science","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":7769005250263447778},{"title":"Image Processing \u0026 Mathematical Morphology","author":{"name":"Shih, Frank","id":2575197291903011688},"genre":"signal_processing","rating":0,"publisher":{"name":"CRC","id":6818106312660221354},"id":6580435838696802742},{"title":"How to Think Like Sherlock Holmes","author":{"name":"Konnikova, Maria","id":6765206561876296727},"genre":"psychology","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":3700569682184182028},{"title":"Data Scientists at Work","author":{"name":"Sebastian Gutierrez","id":6418696743964317503},"genre":"data_science","rating":0,"publisher":{"name":"Apress","id":7424527949402614550},"id":8012946318869470307},{"title":"Slaughterhouse Five","author":{"name":"Vonnegut, Kurt","id":4165709250956885201},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":5146698928210985286},{"title":"Birth of a Theorem","author":{"name":"Villani, Cedric","id":4113233440112132544},"genre":"mathematics","rating":0,"publisher":{"name":"Bodley Head","id":5782894056961501048},"id":9138895046330206100},{"title":"Structure \u0026 Interpretation of Computer Programs","author":{"name":"Sussman, Gerald","id":2133980469031829658},"genre":"computer_science","rating":0,"publisher":{"name":"MIT Press","id":6984455928429657250},"id":2234922469994299938},{"title":"Age of Wrath, The","author":{"name":"Eraly, Abraham","id":837049150622837583},"genre":"history","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":7545908523474827563},{"title":"Trial, The","author":{"name":"Kafka, Frank","id":5835615230059797771},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":7798382058608767263},{"title":"Statistical Decision Theory\u0027","author":{"name":"Pratt, John","id":1756349620206241765},"genre":"data_science","rating":0,"publisher":{"name":"MIT Press","id":6984455928429657250},"id":6305198752500120130},{"title":"Data Mining Handbook","author":{"name":"Nisbet, Robert","id":3177416692534665955},"genre":"data_science","rating":0,"publisher":{"name":"Apress","id":7424527949402614550},"id":5243363353700515176},{"title":"New Machiavelli, The","author":{"name":"Wells, H. G.","id":7688941900908468812},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":1215159464504807657},{"title":"Physics \u0026 Philosophy","author":{"name":"Heisenberg, Werner","id":2495727444404888351},"genre":"science","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":5275107760635632419},{"title":"Making Software","author":{"name":"Oram, Andy","id":619183904514972},"genre":"computer_science","rating":0,"publisher":{"name":"O\u0027Reilly","id":2598376812008108851},"id":240892670247100687},{"title":"Analysis, Vol I","author":{"name":"Tao, Terence","id":4573334707462733363},"genre":"mathematics","rating":0,"publisher":{"name":"HBA","id":4143585110488169737},"id":5190441149235341874},{"title":"Machine Learning for Hackers","author":{"name":"Conway, Drew","id":4177648116047257080},"genre":"data_science","rating":0,"publisher":{"name":"O\u0027Reilly","id":2598376812008108851},"id":1743402135702073906},{"title":"Signal and the Noise, The","author":{"name":"Silver, Nate","id":4317507242355075689},"genre":"data_science","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":5555184342317125548},{"title":"Python for Data Analysis","author":{"name":"McKinney, Wes","id":7928519368818114066},"genre":"data_science","rating":0,"publisher":{"name":"O\u0027Reilly","id":2598376812008108851},"id":5674561172937265573},{"title":"Introduction to Algorithms","author":{"name":"Cormen, Thomas","id":2908201333863849031},"genre":"computer_science","rating":0,"publisher":{"name":"MIT Press","id":6984455928429657250},"id":2671450199369685604},{"title":"Beautiful and the Damned, The","author":{"name":"Deb, Siddhartha","id":602190667376617141},"genre":"nonfiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":7840760195654114736},{"title":"Outsider, The","author":{"name":"Camus, Albert","id":4569480514863520184},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":2157727157741218456},{"title":"Complete Sherlock Holmes, The - Vol I","author":{"name":"Doyle, Arthur Conan","id":6969706060197359059},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":845363263132290165},{"title":"Complete Sherlock Holmes, The - Vol II","author":{"name":"Doyle, Arthur Conan","id":6969706060197359059},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":3884077637522164395},{"title":"Wealth of Nations, The","author":{"name":"Smith, Adam","id":4349408876469264460},"genre":"economics","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":1699349510404340852},{"title":"Pillars of the Earth, The","author":{"name":"Follett, Ken","id":6425614567648777128},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":3149609587783075718},{"title":"Mein Kampf","author":{"name":"Hitler, Adolf","id":1169318822172085252},"genre":"nonfiction","rating":0,"publisher":{"name":"Rupa","id":6442671314001417076},"id":9011309886674285148},{"title":"Tao of Physics, The","author":{"name":"Capra, Fritjof","id":1486985281331884714},"genre":"science","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":506276059584493071},{"title":"Surely You\u0027re Joking Mr Feynman","author":{"name":"Feynman, Richard","id":8164169411539984304},"genre":"science","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":3968299303010017973},{"title":"Farewell to Arms, A","author":{"name":"Hemingway, Ernest","id":4411688368187416763},"genre":"fiction","rating":0,"publisher":{"name":"Rupa","id":6442671314001417076},"id":7697815278625864979},{"title":"Veteran, The","author":{"name":"Forsyth, Frederick","id":109659158649568120},"genre":"fiction","rating":0,"publisher":{"name":"Transworld","id":2007817612503805296},"id":6988357164657477102},{"title":"False Impressions","author":{"name":"Archer, Jeffery","id":6508512606007004343},"genre":"fiction","rating":0,"publisher":{"name":"Pan","id":873028595230515491},"id":8353788918214651648},{"title":"Last Lecture, The","author":{"name":"Pausch, Randy","id":3563976195722257235},"genre":"nonfiction","rating":0,"publisher":{"name":"Hyperion","id":7434392045554439127},"id":6227474633440926535},{"title":"Return of the Primitive","author":{"name":"Rand, Ayn","id":2159342154713935879},"genre":"philosophy","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":4088506301438676466},{"title":"Jurassic Park","author":{"name":"Crichton, Michael","id":6108939704149449700},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":4943970567294787846},{"title":"Russian Journal, A","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"nonfiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":3226434679525957129},{"title":"Tales of Mystery and Imagination","author":{"name":"Poe, Edgar Allen","id":3902923877561793015},"genre":"fiction","rating":0,"publisher":{"name":"HarperCollins","id":9204877535364297115},"id":3752135340915928301},{"title":"Freakonomics","author":{"name":"Dubner, Stephen","id":8058734029351112978},"genre":"economics","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":5758012629209695736},{"title":"Hidden Connections, The","author":{"name":"Capra, Fritjof","id":1486985281331884714},"genre":"science","rating":0,"publisher":{"name":"HarperCollins","id":9204877535364297115},"id":1432665612183365168},{"title":"Story of Philosophy, The","author":{"name":"Durant, Will","id":6715765201624771552},"genre":"philosophy","rating":0,"publisher":{"name":"Pocket","id":195287787288915873},"id":8062875444473226043},{"title":"Asami Asami","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"fiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":346457855700350004},{"title":"Journal of a Novel","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":4860885061097867888},{"title":"Once There Was a War","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"nonfiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":1292385640559194235},{"title":"Moon is Down, The","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":8239493720797752470},{"title":"Brethren, The","author":{"name":"Grisham, John","id":2946607917597376239},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":769757547735328967},{"title":"In a Free State","author":{"name":"Naipaul, V. S.","id":5536288198049962127},"genre":"fiction","rating":0,"publisher":{"name":"Rupa","id":6442671314001417076},"id":676975906575482611},{"title":"Catch 22","author":{"name":"Heller, Joseph","id":291583157468340206},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":8448252556660334337},{"title":"Complete Mastermind, The","author":{"name":"BBC","id":3119964305610277161},"genre":"nonfiction","rating":0,"publisher":{"name":"BBC","id":4582265712773832580},"id":4256390392880595564},{"title":"Dylan on Dylan","author":{"name":"Dylan, Bob","id":2071426046338772327},"genre":"nonfiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":6570496005814253760},{"title":"Soft Computing \u0026 Intelligent Systems","author":{"name":"Gupta, Madan","id":89324123282044468},"genre":"data_science","rating":0,"publisher":{"name":"Elsevier","id":2101012303655871395},"id":9081814056685436810},{"title":"Textbook of Economic Theory","author":{"name":"Stonier, Alfred","id":1390772723826606661},"genre":"economics","rating":0,"publisher":{"name":"Pearson","id":8427678445692954410},"id":2607666370488827196},{"title":"Econometric Analysis","author":{"name":"Greene, W. H.","id":133367656235349658},"genre":"economics","rating":0,"publisher":{"name":"Pearson","id":8427678445692954410},"id":4625814747664154189},{"title":"Learning OpenCV","author":{"name":"Bradsky, Gary","id":8338922800350106010},"genre":"data_science","rating":0,"publisher":{"name":"O\u0027Reilly","id":2598376812008108851},"id":2778722435648060688},{"title":"Data Structures Using C \u0026 C++","author":{"name":"Tanenbaum, Andrew","id":3812102646393938490},"genre":"computer_science","rating":0,"publisher":{"name":"Prentice Hall","id":63254126896417298},"id":1345059925818599890},{"title":"Computer Vision, A Modern Approach","author":{"name":"Forsyth, David","id":2194986847822046949},"genre":"data_science","rating":0,"publisher":{"name":"Pearson","id":8427678445692954410},"id":3813494953156230104},{"title":"Principles of Communication Systems","author":{"name":"Taub, Schilling","id":9070371221696254273},"genre":"computer_science","rating":0,"publisher":{"name":"TMH","id":3493204125065100947},"id":509871476064677103},{"title":"Let Us C","author":{"name":"Kanetkar, Yashwant","id":621216034042248715},"genre":"computer_science","rating":0,"publisher":{"name":"Prentice Hall","id":63254126896417298},"id":3343773317636079635},{"title":"Amulet of Samarkand, The","author":{"name":"Stroud, Jonathan","id":7115171556861192641},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":3969089479867203375},{"title":"Crime and Punishment","author":{"name":"Dostoevsky, Fyodor","id":3117480115130880506},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":4965589381739925508},{"title":"Angels \u0026 Demons","author":{"name":"Brown, Dan","id":1596128409163789527},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":5463986696912011793},{"title":"Argumentative Indian, The","author":{"name":"Sen, Amartya","id":2381976811265280881},"genre":"nonfiction","rating":0,"publisher":{"name":"Picador","id":6293266505421326697},"id":7485047605756501700},{"title":"Sea of Poppies","author":{"name":"Ghosh, Amitav","id":3945247368096495499},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":1376717915252871792},{"title":"Idea of Justice, The","author":{"name":"Sen, Amartya","id":2381976811265280881},"genre":"nonfiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":5908970183505221882},{"title":"Raisin in the Sun, A","author":{"name":"Hansberry, Lorraine","id":5670873279035052906},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":3528528038216760136},{"title":"All the President\u0027s Men","author":{"name":"Woodward, Bob","id":3300948017692689410},"genre":"history","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":7568125610481388559},{"title":"Prisoner of Birth, A","author":{"name":"Archer, Jeffery","id":6508512606007004343},"genre":"fiction","rating":0,"publisher":{"name":"Pan","id":873028595230515491},"id":8171737083941846546},{"title":"Scoop!","author":{"name":"Nayar, Kuldip","id":1668717841035594411},"genre":"history","rating":0,"publisher":{"name":"HarperCollins","id":9204877535364297115},"id":8979401530048361450},{"title":"Ahe Manohar Tari","author":{"name":"Deshpande, Sunita","id":8239801200925649322},"genre":"nonfiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":1976701186999454834},{"title":"Last Mughal, The","author":{"name":"Dalrymple, William","id":2046291525488623473},"genre":"history","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":8141225095278037249},{"title":"Social Choice \u0026 Welfare, Vol 39 No. 1","author":{"name":"Various","id":3010061117005302779},"genre":"economics","rating":0,"publisher":{"name":"Springer","id":8350632895355790801},"id":2563125807666709524},{"title":"Radiowaril Bhashane \u0026 Shrutika","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"nonfiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":3219843565273809940},{"title":"Gun Gayin Awadi","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"nonfiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":4780447868312203066},{"title":"Aghal Paghal","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"nonfiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":503741955503600709},{"title":"Maqta-e-Ghalib","author":{"name":"Garg, Sanjay","id":2462516421442901050},"genre":"fiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":7982933520528034018},{"title":"Beyond Degrees","author":{"name":"","id":8383803182272512078},"genre":"nonfiction","rating":0,"publisher":{"name":"HarperCollins","id":9204877535364297115},"id":1678681924544389186},{"title":"Manasa","author":{"name":"Kale, V P","id":4291938500066552369},"genre":"nonfiction","rating":0,"publisher":{"name":"Mauj","id":5741117784864295218},"id":7180945841806245693},{"title":"India from Midnight to Milennium","author":{"name":"Tharoor, Shashi","id":1182461097207340182},"genre":"history","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":5747787719935151539},{"title":"World\u0027s Greatest Trials, The","author":{"name":"","id":8383803182272512078},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":812198160137730363},{"title":"Great Indian Novel, The","author":{"name":"Tharoor, Shashi","id":1182461097207340182},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":8648919505029324245},{"title":"O Jerusalem!","author":{"name":"Lapierre, Dominique","id":6557830200757186392},"genre":"history","rating":0,"publisher":{"name":"vikas","id":8591313771603935847},"id":1326824890546541105},{"title":"City of Joy, The","author":{"name":"Lapierre, Dominique","id":6557830200757186392},"genre":"fiction","rating":0,"publisher":{"name":"vikas","id":8591313771603935847},"id":843598908104653446},{"title":"Freedom at Midnight","author":{"name":"Lapierre, Dominique","id":6557830200757186392},"genre":"history","rating":0,"publisher":{"name":"vikas","id":8591313771603935847},"id":2491226197632057530},{"title":"Winter of Our Discontent, The","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":1334222798702526088},{"title":"On Education","author":{"name":"Russell, Bertrand","id":4838058734089268597},"genre":"philosophy","rating":0,"publisher":{"name":"Routledge","id":408336050914859499},"id":5141897393109225835},{"title":"Free Will","author":{"name":"Harris, Sam","id":8065462695356776536},"genre":"philosophy","rating":0,"publisher":{"name":"FreePress","id":627694635587762509},"id":6715344283142765077},{"title":"Bookless in Baghdad","author":{"name":"Tharoor, Shashi","id":1182461097207340182},"genre":"nonfiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":3621271572922086640},{"title":"Case of the Lame Canary, The","author":{"name":"Gardner, Earle Stanley","id":4936965000922267896},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4122534817953516406},{"title":"Theory of Everything, The","author":{"name":"Hawking, Stephen","id":2644509434667365931},"genre":"science","rating":0,"publisher":{"name":"Jaico","id":8451992062521791029},"id":6743549460784500149},{"title":"New Markets \u0026 Other Essays","author":{"name":"Drucker, Peter","id":20263549482473104},"genre":"economics","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":1322777977219428755},{"title":"Electric Universe","author":{"name":"Bodanis, David","id":6157236893726390216},"genre":"science","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":4823075832790492476},{"title":"Hunchback of Notre Dame, The","author":{"name":"Hugo, Victor","id":1271444327551974493},"genre":"fiction","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":2888814692318314557},{"title":"Burning Bright","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":6382756956106963206},{"title":"Age of Discontuinity, The","author":{"name":"Drucker, Peter","id":20263549482473104},"genre":"economics","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":6298566708839959589},{"title":"Doctor in the Nude","author":{"name":"Gordon, Richard","id":6615592597732826478},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":8904013375821935582},{"title":"Down and Out in Paris \u0026 London","author":{"name":"Orwell, George","id":8032071399304483594},"genre":"nonfiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":297881274324819388},{"title":"Identity \u0026 Violence","author":{"name":"Sen, Amartya","id":2381976811265280881},"genre":"philosophy","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":8659952566410291699},{"title":"Beyond the Three Seas","author":{"name":"Dalrymple, William","id":2046291525488623473},"genre":"history","rating":0,"publisher":{"name":"Random House","id":6976280795742821006},"id":6586744586117080455},{"title":"World\u0027s Greatest Short Stories, The","author":{"name":"","id":8383803182272512078},"genre":"fiction","rating":0,"publisher":{"name":"Jaico","id":8451992062521791029},"id":4427866085476488675},{"title":"Talking Straight","author":{"name":"Iacoca, Lee","id":1610055049990737518},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1947118614101117847},{"title":"Maugham\u0027s Collected Short Stories, Vol 3","author":{"name":"Maugham, William S","id":5420045878709608580},"genre":"fiction","rating":0,"publisher":{"name":"Vintage","id":5852678465994068305},"id":786378137732428587},{"title":"Phantom of Manhattan, The","author":{"name":"Forsyth, Frederick","id":109659158649568120},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":9193211742755334711},{"title":"Ashenden of The British Agent","author":{"name":"Maugham, William S","id":5420045878709608580},"genre":"fiction","rating":0,"publisher":{"name":"Vintage","id":5852678465994068305},"id":4522055671843222094},{"title":"Zen \u0026 The Art of Motorcycle Maintenance","author":{"name":"Pirsig, Robert","id":1172805124288817499},"genre":"philosophy","rating":0,"publisher":{"name":"Vintage","id":5852678465994068305},"id":1612831444660247340},{"title":"Great War for Civilization, The","author":{"name":"Fisk, Robert","id":7890921819538229694},"genre":"history","rating":0,"publisher":{"name":"HarperCollins","id":9204877535364297115},"id":2416910892502344258},{"title":"We the Living","author":{"name":"Rand, Ayn","id":2159342154713935879},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":2442646118565976824},{"title":"Artist and the Mathematician, The","author":{"name":"Aczel, Amir","id":5000672674426497751},"genre":"science","rating":0,"publisher":{"name":"HighStakes","id":8569541670211269286},"id":890051100643823635},{"title":"History of Western Philosophy","author":{"name":"Russell, Bertrand","id":4838058734089268597},"genre":"philosophy","rating":0,"publisher":{"name":"Routledge","id":408336050914859499},"id":7714549168408827523},{"title":"Selected Short Stories","author":{"name":"","id":8383803182272512078},"genre":"fiction","rating":0,"publisher":{"name":"Jaico","id":8451992062521791029},"id":2789650695823574507},{"title":"Rationality \u0026 Freedom","author":{"name":"Sen, Amartya","id":2381976811265280881},"genre":"economics","rating":0,"publisher":{"name":"Springer","id":8350632895355790801},"id":4660417394430920007},{"title":"Clash of Civilizations and Remaking of the World Order","author":{"name":"Huntington, Samuel","id":4689220064211688918},"genre":"history","rating":0,"publisher":{"name":"Simon\u0026Schuster","id":4398232714378321451},"id":2642729039869120981},{"title":"Uncommon Wisdom","author":{"name":"Capra, Fritjof","id":1486985281331884714},"genre":"nonfiction","rating":0,"publisher":{"name":"Fontana","id":7771061474287145910},"id":2291985274001457871},{"title":"One","author":{"name":"Bach, Richard","id":2749330492688868626},"genre":"nonfiction","rating":0,"publisher":{"name":"Dell","id":7941650310643870045},"id":4599278225644076151},{"title":"Karl Marx Biography","author":{"name":"","id":8383803182272512078},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1639822712910235092},{"title":"To Sir With Love","author":{"name":"Braithwaite","id":606617035182919976},"genre":"fiction","rating":0,"publisher":{"name":"Penguin","id":4671402918400504365},"id":1973386730528617843},{"title":"Half A Life","author":{"name":"Naipaul, V S","id":7372108722495737411},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6627494414299420266},{"title":"Discovery of India, The","author":{"name":"Nehru, Jawaharlal","id":2116246486401977028},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":7628515013568862644},{"title":"Apulki","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5407907018827433350},{"title":"Unpopular Essays","author":{"name":"Russell, Bertrand","id":4838058734089268597},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":383602275111029834},{"title":"Deceiver, The","author":{"name":"Forsyth, Frederick","id":109659158649568120},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1260064551043592513},{"title":"Veil: Secret Wars of the CIA","author":{"name":"Woodward, Bob","id":3300948017692689410},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3743316053476825702},{"title":"Char Shabda","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":579405457529891626},{"title":"Rosy is My Relative","author":{"name":"Durrell, Gerald","id":3791615875736107720},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4548701073783731770},{"title":"Moon and Sixpence, The","author":{"name":"Maugham, William S","id":5420045878709608580},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6570473173536813343},{"title":"Political Philosophers","author":{"name":"","id":8383803182272512078},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":884146046963753502},{"title":"Short History of the World, A","author":{"name":"Wells, H G","id":6463617796565133692},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":7649489002541031667},{"title":"Trembling of a Leaf, The","author":{"name":"Maugham, William S","id":5420045878709608580},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":259540502451873005},{"title":"Doctor on the Brain","author":{"name":"Gordon, Richard","id":6615592597732826478},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8163517473581445179},{"title":"Simpsons \u0026 Their Mathematical Secrets","author":{"name":"Singh, Simon","id":5657856548011110177},"genre":"science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":504621934342649439},{"title":"Pattern Classification","author":{"name":"Duda, Hart","id":390803616650397128},"genre":"data_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4563894017391042725},{"title":"From Beirut to Jerusalem","author":{"name":"Friedman, Thomas","id":6469445931549498859},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4080819928563188641},{"title":"Code Book, The","author":{"name":"Singh, Simon","id":5657856548011110177},"genre":"science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":7745562549624192862},{"title":"Age of the Warrior, The","author":{"name":"Fisk, Robert","id":7890921819538229694},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6842183738145020526},{"title":"Final Crisis","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5131686115559198023},{"title":"Killing Joke, The","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6842665867067901472},{"title":"Flashpoint","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8139508349118786013},{"title":"Batman Earth One","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6980713238200047262},{"title":"Crisis on Infinite Earths","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4838709890866868968},{"title":"Numbers Behind Numb3rs, The","author":{"name":"Devlin, Keith","id":2708591086016169657},"genre":"science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1028098948808105474},{"title":"Superman Earth One - 1","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6984825329186641747},{"title":"Superman Earth One - 2","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":2227810326791844735},{"title":"Justice League: Throne of Atlantis","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":293580088776126912},{"title":"Justice League: The Villain\u0027s Journey","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5890063050961284626},{"title":"Death of Superman, The","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6982794533684163546},{"title":"History of the DC Universe","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8984117110984360241},{"title":"Batman: The Long Halloween","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3523789016829322013},{"title":"Life in Letters, A","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3614576677205278163},{"title":"Information, The","author":{"name":"Gleick, James","id":1551697143957651794},"genre":"science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3293418216398317921},{"title":"Journal of Economics, vol 106 No 3","author":{"name":"","id":8383803182272512078},"genre":"economics","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":7932888292892729765},{"title":"Elements of Information Theory","author":{"name":"Thomas, Joy","id":3497310972114392634},"genre":"data_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6222274947838483682},{"title":"Power Electronics - Rashid","author":{"name":"Rashid, Muhammad","id":8366090209348760388},"genre":"computer_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":816921606102590145},{"title":"Power Electronics - Mohan","author":{"name":"Mohan, Ned","id":2809894455043158483},"genre":"computer_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1228942875826843410},{"title":"Neural Networks","author":{"name":"Haykin, Simon","id":6787069981140375182},"genre":"data_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6895969867812159539},{"title":"Grapes of Wrath, The","author":{"name":"Steinbeck, John","id":3393001413933235441},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":286680818357263090},{"title":"Vyakti ani Valli","author":{"name":"Deshpande, P L","id":965849257653005883},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":719619652479993988},{"title":"Statistical Learning Theory","author":{"name":"Vapnik, Vladimir","id":1679949190180002739},"genre":"data_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8096421053927721276},{"title":"Empire of the Mughal - The Tainted Throne","author":{"name":"Rutherford, Alex","id":5975896454639192523},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":2713523363681331359},{"title":"Empire of the Mughal - Brothers at War","author":{"name":"Rutherford, Alex","id":5975896454639192523},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8142166438182775125},{"title":"Empire of the Mughal - Ruler of the World","author":{"name":"Rutherford, Alex","id":5975896454639192523},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4579400361443253656},{"title":"Empire of the Mughal - The Serpent\u0027s Tooth","author":{"name":"Rutherford, Alex","id":5975896454639192523},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3579581462144122180},{"title":"Empire of the Mughal - Raiders from the North","author":{"name":"Rutherford, Alex","id":5975896454639192523},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5858440976999593852},{"title":"Mossad","author":{"name":"Baz-Zohar, Michael","id":7942600883289085801},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1873685698994830240},{"title":"Jim Corbett Omnibus","author":{"name":"Corbett, Jim","id":3210681417242280851},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5099991430239998243},{"title":"20000 Leagues Under the Sea","author":{"name":"Verne, Jules","id":6383758711190130279},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1125315781106229991},{"title":"Batatyachi Chal","author":{"name":"Deshpande P L","id":1903807394254733231},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5908168230263313012},{"title":"Hafasavnuk","author":{"name":"Deshpande P L","id":1903807394254733231},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6593596493311897907},{"title":"Urlasurla","author":{"name":"Deshpande P L","id":1903807394254733231},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4865484370194888598},{"title":"Pointers in C","author":{"name":"Kanetkar, Yashwant","id":621216034042248715},"genre":"computer_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8949455647198038861},{"title":"Cathedral and the Bazaar, The","author":{"name":"Raymond, Eric","id":8412697619783718889},"genre":"computer_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":182079148026103490},{"title":"Design with OpAmps","author":{"name":"Franco, Sergio","id":233693205456830604},"genre":"computer_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3946833896734660610},{"title":"Think Complexity","author":{"name":"Downey, Allen","id":7084989297749480608},"genre":"data_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4829684984824583858},{"title":"Devil\u0027s Advocate, The","author":{"name":"West, Morris","id":5995032593708160028},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":981815615668844619},{"title":"Ayn Rand Answers","author":{"name":"Rand, Ayn","id":2159342154713935879},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6746869131070470376},{"title":"Philosophy: Who Needs It","author":{"name":"Rand, Ayn","id":2159342154713935879},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8113509231749444006},{"title":"World\u0027s Great Thinkers, The","author":{"name":"","id":8383803182272512078},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1440023097214280592},{"title":"Data Analysis with Open Source Tools","author":{"name":"Janert, Phillip","id":2017468037476804176},"genre":"data_science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1856054039969432726},{"title":"Broca\u0027s Brain","author":{"name":"Sagan, Carl","id":3819084600392115664},"genre":"science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":7097307435538830660},{"title":"Men of Mathematics","author":{"name":"Bell, E T","id":3633227628553427486},"genre":"mathematics","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3221153823472800197},{"title":"Oxford book of Modern Science Writing","author":{"name":"Dawkins, Richard","id":8033539878068100027},"genre":"science","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6203125674119861939},{"title":"Justice, Judiciary and Democracy","author":{"name":"Ranjan, Sudhanshu","id":8702100880825459356},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":2423038380047495252},{"title":"Arthashastra, The","author":{"name":"Kautiyla","id":2624772594770969046},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":131271165122902650},{"title":"We the People","author":{"name":"Palkhivala","id":5054953011033692513},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1080528767186232834},{"title":"We the Nation","author":{"name":"Palkhivala","id":5054953011033692513},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":1245641464093971368},{"title":"Courtroom Genius, The","author":{"name":"Sorabjee","id":575834699599211892},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8014842587583165543},{"title":"Dongri to Dubai","author":{"name":"Zaidi, Hussain","id":2725673066094925934},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6847362989531068131},{"title":"History of England, Foundation","author":{"name":"Ackroyd, Peter","id":3569480907563458406},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":7758436201180836101},{"title":"City of Djinns","author":{"name":"Dalrymple, William","id":2046291525488623473},"genre":"history","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":2481854284012780505},{"title":"India\u0027s Legal System","author":{"name":"Nariman","id":5778181352648991437},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5114627245299511260},{"title":"More Tears to Cry","author":{"name":"Sassoon, Jean","id":7788308534990271492},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5952407458287717941},{"title":"Ropemaker, The","author":{"name":"Dickinson, Peter","id":9206269479676476054},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4300577833007851517},{"title":"Angels \u0026 Demons","author":{"name":"Brown, Dan","id":1596128409163789527},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3071641022580641300},{"title":"Judge, The","author":{"name":"","id":8383803182272512078},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":5931754344640044622},{"title":"Attorney, The","author":{"name":"","id":8383803182272512078},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8888663962246440350},{"title":"Prince, The","author":{"name":"Machiavelli","id":2271857120467864493},"genre":"philosophy","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6190106785698783730},{"title":"Eyeless in Gaza","author":{"name":"Huxley, Aldous","id":3458075093062959640},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4255083920079071202},{"title":"Tales of Beedle the Bard","author":{"name":"Rowling, J K","id":7726561061051654015},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":167053044296343946},{"title":"Girl with the Dragon Tattoo","author":{"name":"Larsson, Steig","id":4300138939279134448},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4356870141499500709},{"title":"Girl who kicked the Hornet\u0027s Nest","author":{"name":"Larsson, Steig","id":4300138939279134448},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3086333029175403571},{"title":"Girl who played with Fire","author":{"name":"Larsson, Steig","id":4300138939279134448},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8679890573513662565},{"title":"Batman Handbook","author":{"name":"","id":8383803182272512078},"genre":"comic","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":8369006060861689308},{"title":"Murphy\u0027s Law","author":{"name":"","id":8383803182272512078},"genre":"nonfiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3643983329161861600},{"title":"Structure and Randomness","author":{"name":"Tao, Terence","id":4573334707462733363},"genre":"mathematics","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":402764563935438031},{"title":"Image Processing with MATLAB","author":{"name":"Eddins, Steve","id":3850363014502480220},"genre":"signal_processing","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":4687822759667087165},{"title":"Animal Farm","author":{"name":"Orwell, George","id":8032071399304483594},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":6576072258294307161},{"title":"Idiot, The","author":{"name":"Dostoevsky, Fyodor","id":3117480115130880506},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3257701147932222584},{"title":"Christmas Carol, A","author":{"name":"Dickens, Charles","id":599656791718054574},"genre":"fiction","rating":0,"publisher":{"name":"","id":6077377690050985887},"id":3344024435507109954}]
+[
+  {
+    "title": "Fundamentals of Wavelets",
+    "author": {
+      "name": "Goswami, Jaideva",
+      "id": 4406006010904375000
+    },
+    "genre": "signal_processing",
+    "rating": 0,
+    "publisher": {
+      "name": "Wiley",
+      "id": 4860304272421464000
+    },
+    "id": 8057715356274028000
+  },
+  {
+    "title": "Data Smart",
+    "author": {
+      "name": "Foreman, John",
+      "id": 5704287268067975000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Wiley",
+      "id": 4860304272421464000
+    },
+    "id": 1633549872105332500
+  },
+  {
+    "title": "God Created the Integers",
+    "author": {
+      "name": "Hawking, Stephen",
+      "id": 2644509434667366000
+    },
+    "genre": "mathematics",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 8098875534798991000
+  },
+  {
+    "title": "Superfreakonomics",
+    "author": {
+      "name": "Dubner, Stephen",
+      "id": 8058734029351113000
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "HarperCollins",
+      "id": 9204877535364297000
+    },
+    "id": 2512833123405320000
+  },
+  {
+    "title": "Orientalism",
+    "author": {
+      "name": "Said, Edward",
+      "id": 3769231722567864300
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 2669748707432021000
+  },
+  {
+    "title": "Nature of Statistical Learning Theory, The",
+    "author": {
+      "name": "Vapnik, Vladimir",
+      "id": 1679949190180002800
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Springer",
+      "id": 8350632895355790000
+    },
+    "id": 3832053628977840000
+  },
+  {
+    "title": "Integration of the Indian States",
+    "author": {
+      "name": "Menon, V P",
+      "id": 1300875934621896000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Orient Blackswan",
+      "id": 4319312491977944600
+    },
+    "id": 1268484286310393900
+  },
+  {
+    "title": "Drunkard's Walk, The",
+    "author": {
+      "name": "Mlodinow, Leonard",
+      "id": 88796432510382430
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 7769005250263448000
+  },
+  {
+    "title": "Image Processing & Mathematical Morphology",
+    "author": {
+      "name": "Shih, Frank",
+      "id": 2575197291903012000
+    },
+    "genre": "signal_processing",
+    "rating": 0,
+    "publisher": {
+      "name": "CRC",
+      "id": 6818106312660221000
+    },
+    "id": 6580435838696802000
+  },
+  {
+    "title": "How to Think Like Sherlock Holmes",
+    "author": {
+      "name": "Konnikova, Maria",
+      "id": 6765206561876297000
+    },
+    "genre": "psychology",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 3700569682184182300
+  },
+  {
+    "title": "Data Scientists at Work",
+    "author": {
+      "name": "Sebastian Gutierrez",
+      "id": 6418696743964318000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Apress",
+      "id": 7424527949402615000
+    },
+    "id": 8012946318869470000
+  },
+  {
+    "title": "Slaughterhouse Five",
+    "author": {
+      "name": "Vonnegut, Kurt",
+      "id": 4165709250956885000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 5146698928210985000
+  },
+  {
+    "title": "Birth of a Theorem",
+    "author": {
+      "name": "Villani, Cedric",
+      "id": 4113233440112132600
+    },
+    "genre": "mathematics",
+    "rating": 0,
+    "publisher": {
+      "name": "Bodley Head",
+      "id": 5782894056961501000
+    },
+    "id": 9138895046330206000
+  },
+  {
+    "title": "Structure & Interpretation of Computer Programs",
+    "author": {
+      "name": "Sussman, Gerald",
+      "id": 2133980469031829800
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "MIT Press",
+      "id": 6984455928429657000
+    },
+    "id": 2234922469994300000
+  },
+  {
+    "title": "Age of Wrath, The",
+    "author": {
+      "name": "Eraly, Abraham",
+      "id": 837049150622837600
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 7545908523474827000
+  },
+  {
+    "title": "Trial, The",
+    "author": {
+      "name": "Kafka, Frank",
+      "id": 5835615230059798000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 7798382058608767000
+  },
+  {
+    "title": "Statistical Decision Theory'",
+    "author": {
+      "name": "Pratt, John",
+      "id": 1756349620206241800
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "MIT Press",
+      "id": 6984455928429657000
+    },
+    "id": 6305198752500121000
+  },
+  {
+    "title": "Data Mining Handbook",
+    "author": {
+      "name": "Nisbet, Robert",
+      "id": 3177416692534665700
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Apress",
+      "id": 7424527949402615000
+    },
+    "id": 5243363353700515000
+  },
+  {
+    "title": "New Machiavelli, The",
+    "author": {
+      "name": "Wells, H. G.",
+      "id": 7688941900908469000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 1215159464504807700
+  },
+  {
+    "title": "Physics & Philosophy",
+    "author": {
+      "name": "Heisenberg, Werner",
+      "id": 2495727444404888600
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 5275107760635633000
+  },
+  {
+    "title": "Making Software",
+    "author": {
+      "name": "Oram, Andy",
+      "id": 619183904514972
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "O'Reilly",
+      "id": 2598376812008109000
+    },
+    "id": 240892670247100670
+  },
+  {
+    "title": "Analysis, Vol I",
+    "author": {
+      "name": "Tao, Terence",
+      "id": 4573334707462733300
+    },
+    "genre": "mathematics",
+    "rating": 0,
+    "publisher": {
+      "name": "HBA",
+      "id": 4143585110488170000
+    },
+    "id": 5190441149235342000
+  },
+  {
+    "title": "Machine Learning for Hackers",
+    "author": {
+      "name": "Conway, Drew",
+      "id": 4177648116047257000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "O'Reilly",
+      "id": 2598376812008109000
+    },
+    "id": 1743402135702073900
+  },
+  {
+    "title": "Signal and the Noise, The",
+    "author": {
+      "name": "Silver, Nate",
+      "id": 4317507242355075600
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 5555184342317126000
+  },
+  {
+    "title": "Python for Data Analysis",
+    "author": {
+      "name": "McKinney, Wes",
+      "id": 7928519368818115000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "O'Reilly",
+      "id": 2598376812008109000
+    },
+    "id": 5674561172937265000
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": {
+      "name": "Cormen, Thomas",
+      "id": 2908201333863849000
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "MIT Press",
+      "id": 6984455928429657000
+    },
+    "id": 2671450199369685500
+  },
+  {
+    "title": "Beautiful and the Damned, The",
+    "author": {
+      "name": "Deb, Siddhartha",
+      "id": 602190667376617100
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 7840760195654114000
+  },
+  {
+    "title": "Outsider, The",
+    "author": {
+      "name": "Camus, Albert",
+      "id": 4569480514863520300
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 2157727157741218600
+  },
+  {
+    "title": "Complete Sherlock Holmes, The - Vol I",
+    "author": {
+      "name": "Doyle, Arthur Conan",
+      "id": 6969706060197359000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 845363263132290200
+  },
+  {
+    "title": "Complete Sherlock Holmes, The - Vol II",
+    "author": {
+      "name": "Doyle, Arthur Conan",
+      "id": 6969706060197359000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 3884077637522164000
+  },
+  {
+    "title": "Wealth of Nations, The",
+    "author": {
+      "name": "Smith, Adam",
+      "id": 4349408876469264400
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 1699349510404340700
+  },
+  {
+    "title": "Pillars of the Earth, The",
+    "author": {
+      "name": "Follett, Ken",
+      "id": 6425614567648777000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 3149609587783076000
+  },
+  {
+    "title": "Mein Kampf",
+    "author": {
+      "name": "Hitler, Adolf",
+      "id": 1169318822172085200
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Rupa",
+      "id": 6442671314001417000
+    },
+    "id": 9011309886674286000
+  },
+  {
+    "title": "Tao of Physics, The",
+    "author": {
+      "name": "Capra, Fritjof",
+      "id": 1486985281331884800
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 506276059584493060
+  },
+  {
+    "title": "Surely You're Joking Mr Feynman",
+    "author": {
+      "name": "Feynman, Richard",
+      "id": 8164169411539984000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 3968299303010018000
+  },
+  {
+    "title": "Farewell to Arms, A",
+    "author": {
+      "name": "Hemingway, Ernest",
+      "id": 4411688368187416600
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Rupa",
+      "id": 6442671314001417000
+    },
+    "id": 7697815278625865000
+  },
+  {
+    "title": "Veteran, The",
+    "author": {
+      "name": "Forsyth, Frederick",
+      "id": 109659158649568130
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Transworld",
+      "id": 2007817612503805200
+    },
+    "id": 6988357164657477000
+  },
+  {
+    "title": "False Impressions",
+    "author": {
+      "name": "Archer, Jeffery",
+      "id": 6508512606007004000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Pan",
+      "id": 873028595230515500
+    },
+    "id": 8353788918214652000
+  },
+  {
+    "title": "Last Lecture, The",
+    "author": {
+      "name": "Pausch, Randy",
+      "id": 3563976195722257400
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Hyperion",
+      "id": 7434392045554439000
+    },
+    "id": 6227474633440927000
+  },
+  {
+    "title": "Return of the Primitive",
+    "author": {
+      "name": "Rand, Ayn",
+      "id": 2159342154713936000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 4088506301438676500
+  },
+  {
+    "title": "Jurassic Park",
+    "author": {
+      "name": "Crichton, Michael",
+      "id": 6108939704149450000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 4943970567294788000
+  },
+  {
+    "title": "Russian Journal, A",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 3226434679525957000
+  },
+  {
+    "title": "Tales of Mystery and Imagination",
+    "author": {
+      "name": "Poe, Edgar Allen",
+      "id": 3902923877561793000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "HarperCollins",
+      "id": 9204877535364297000
+    },
+    "id": 3752135340915928000
+  },
+  {
+    "title": "Freakonomics",
+    "author": {
+      "name": "Dubner, Stephen",
+      "id": 8058734029351113000
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 5758012629209695000
+  },
+  {
+    "title": "Hidden Connections, The",
+    "author": {
+      "name": "Capra, Fritjof",
+      "id": 1486985281331884800
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "HarperCollins",
+      "id": 9204877535364297000
+    },
+    "id": 1432665612183365000
+  },
+  {
+    "title": "Story of Philosophy, The",
+    "author": {
+      "name": "Durant, Will",
+      "id": 6715765201624772000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "Pocket",
+      "id": 195287787288915870
+    },
+    "id": 8062875444473226000
+  },
+  {
+    "title": "Asami Asami",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 346457855700350000
+  },
+  {
+    "title": "Journal of a Novel",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 4860885061097868000
+  },
+  {
+    "title": "Once There Was a War",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 1292385640559194000
+  },
+  {
+    "title": "Moon is Down, The",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 8239493720797752000
+  },
+  {
+    "title": "Brethren, The",
+    "author": {
+      "name": "Grisham, John",
+      "id": 2946607917597376000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 769757547735329000
+  },
+  {
+    "title": "In a Free State",
+    "author": {
+      "name": "Naipaul, V. S.",
+      "id": 5536288198049962000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Rupa",
+      "id": 6442671314001417000
+    },
+    "id": 676975906575482600
+  },
+  {
+    "title": "Catch 22",
+    "author": {
+      "name": "Heller, Joseph",
+      "id": 291583157468340200
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 8448252556660335000
+  },
+  {
+    "title": "Complete Mastermind, The",
+    "author": {
+      "name": "BBC",
+      "id": 3119964305610277400
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "BBC",
+      "id": 4582265712773832700
+    },
+    "id": 4256390392880595500
+  },
+  {
+    "title": "Dylan on Dylan",
+    "author": {
+      "name": "Dylan, Bob",
+      "id": 2071426046338772200
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 6570496005814254000
+  },
+  {
+    "title": "Soft Computing & Intelligent Systems",
+    "author": {
+      "name": "Gupta, Madan",
+      "id": 89324123282044460
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Elsevier",
+      "id": 2101012303655871500
+    },
+    "id": 9081814056685437000
+  },
+  {
+    "title": "Textbook of Economic Theory",
+    "author": {
+      "name": "Stonier, Alfred",
+      "id": 1390772723826606600
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Pearson",
+      "id": 8427678445692955000
+    },
+    "id": 2607666370488827400
+  },
+  {
+    "title": "Econometric Analysis",
+    "author": {
+      "name": "Greene, W. H.",
+      "id": 133367656235349660
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Pearson",
+      "id": 8427678445692955000
+    },
+    "id": 4625814747664155000
+  },
+  {
+    "title": "Learning OpenCV",
+    "author": {
+      "name": "Bradsky, Gary",
+      "id": 8338922800350106000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "O'Reilly",
+      "id": 2598376812008109000
+    },
+    "id": 2778722435648061000
+  },
+  {
+    "title": "Data Structures Using C & C++",
+    "author": {
+      "name": "Tanenbaum, Andrew",
+      "id": 3812102646393938400
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Prentice Hall",
+      "id": 63254126896417300
+    },
+    "id": 1345059925818600000
+  },
+  {
+    "title": "Computer Vision, A Modern Approach",
+    "author": {
+      "name": "Forsyth, David",
+      "id": 2194986847822047000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Pearson",
+      "id": 8427678445692955000
+    },
+    "id": 3813494953156230000
+  },
+  {
+    "title": "Principles of Communication Systems",
+    "author": {
+      "name": "Taub, Schilling",
+      "id": 9070371221696254000
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "TMH",
+      "id": 3493204125065101000
+    },
+    "id": 509871476064677100
+  },
+  {
+    "title": "Let Us C",
+    "author": {
+      "name": "Kanetkar, Yashwant",
+      "id": 621216034042248700
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "Prentice Hall",
+      "id": 63254126896417300
+    },
+    "id": 3343773317636079600
+  },
+  {
+    "title": "Amulet of Samarkand, The",
+    "author": {
+      "name": "Stroud, Jonathan",
+      "id": 7115171556861192000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 3969089479867203600
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": {
+      "name": "Dostoevsky, Fyodor",
+      "id": 3117480115130880500
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 4965589381739926000
+  },
+  {
+    "title": "Angels & Demons",
+    "author": {
+      "name": "Brown, Dan",
+      "id": 1596128409163789600
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 5463986696912012000
+  },
+  {
+    "title": "Argumentative Indian, The",
+    "author": {
+      "name": "Sen, Amartya",
+      "id": 2381976811265281000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Picador",
+      "id": 6293266505421326000
+    },
+    "id": 7485047605756502000
+  },
+  {
+    "title": "Sea of Poppies",
+    "author": {
+      "name": "Ghosh, Amitav",
+      "id": 3945247368096495600
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 1376717915252871700
+  },
+  {
+    "title": "Idea of Justice, The",
+    "author": {
+      "name": "Sen, Amartya",
+      "id": 2381976811265281000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 5908970183505222000
+  },
+  {
+    "title": "Raisin in the Sun, A",
+    "author": {
+      "name": "Hansberry, Lorraine",
+      "id": 5670873279035053000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 3528528038216760300
+  },
+  {
+    "title": "All the President's Men",
+    "author": {
+      "name": "Woodward, Bob",
+      "id": 3300948017692689400
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 7568125610481389000
+  },
+  {
+    "title": "Prisoner of Birth, A",
+    "author": {
+      "name": "Archer, Jeffery",
+      "id": 6508512606007004000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Pan",
+      "id": 873028595230515500
+    },
+    "id": 8171737083941847000
+  },
+  {
+    "title": "Scoop!",
+    "author": {
+      "name": "Nayar, Kuldip",
+      "id": 1668717841035594500
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "HarperCollins",
+      "id": 9204877535364297000
+    },
+    "id": 8979401530048361000
+  },
+  {
+    "title": "Ahe Manohar Tari",
+    "author": {
+      "name": "Deshpande, Sunita",
+      "id": 8239801200925649000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 1976701186999454700
+  },
+  {
+    "title": "Last Mughal, The",
+    "author": {
+      "name": "Dalrymple, William",
+      "id": 2046291525488623400
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 8141225095278037000
+  },
+  {
+    "title": "Social Choice & Welfare, Vol 39 No. 1",
+    "author": {
+      "name": "Various",
+      "id": 3010061117005303000
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Springer",
+      "id": 8350632895355790000
+    },
+    "id": 2563125807666709500
+  },
+  {
+    "title": "Radiowaril Bhashane & Shrutika",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 3219843565273810000
+  },
+  {
+    "title": "Gun Gayin Awadi",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 4780447868312203000
+  },
+  {
+    "title": "Aghal Paghal",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 503741955503600700
+  },
+  {
+    "title": "Maqta-e-Ghalib",
+    "author": {
+      "name": "Garg, Sanjay",
+      "id": 2462516421442901000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 7982933520528034000
+  },
+  {
+    "title": "Beyond Degrees",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "HarperCollins",
+      "id": 9204877535364297000
+    },
+    "id": 1678681924544389000
+  },
+  {
+    "title": "Manasa",
+    "author": {
+      "name": "Kale, V P",
+      "id": 4291938500066552300
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Mauj",
+      "id": 5741117784864295000
+    },
+    "id": 7180945841806246000
+  },
+  {
+    "title": "India from Midnight to Milennium",
+    "author": {
+      "name": "Tharoor, Shashi",
+      "id": 1182461097207340300
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 5747787719935151000
+  },
+  {
+    "title": "World's Greatest Trials, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 812198160137730300
+  },
+  {
+    "title": "Great Indian Novel, The",
+    "author": {
+      "name": "Tharoor, Shashi",
+      "id": 1182461097207340300
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 8648919505029324000
+  },
+  {
+    "title": "O Jerusalem!",
+    "author": {
+      "name": "Lapierre, Dominique",
+      "id": 6557830200757187000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "vikas",
+      "id": 8591313771603936000
+    },
+    "id": 1326824890546541000
+  },
+  {
+    "title": "City of Joy, The",
+    "author": {
+      "name": "Lapierre, Dominique",
+      "id": 6557830200757187000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "vikas",
+      "id": 8591313771603936000
+    },
+    "id": 843598908104653400
+  },
+  {
+    "title": "Freedom at Midnight",
+    "author": {
+      "name": "Lapierre, Dominique",
+      "id": 6557830200757187000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "vikas",
+      "id": 8591313771603936000
+    },
+    "id": 2491226197632057300
+  },
+  {
+    "title": "Winter of Our Discontent, The",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 1334222798702526200
+  },
+  {
+    "title": "On Education",
+    "author": {
+      "name": "Russell, Bertrand",
+      "id": 4838058734089268000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "Routledge",
+      "id": 408336050914859500
+    },
+    "id": 5141897393109225000
+  },
+  {
+    "title": "Free Will",
+    "author": {
+      "name": "Harris, Sam",
+      "id": 8065462695356776000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "FreePress",
+      "id": 627694635587762600
+    },
+    "id": 6715344283142766000
+  },
+  {
+    "title": "Bookless in Baghdad",
+    "author": {
+      "name": "Tharoor, Shashi",
+      "id": 1182461097207340300
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 3621271572922086400
+  },
+  {
+    "title": "Case of the Lame Canary, The",
+    "author": {
+      "name": "Gardner, Earle Stanley",
+      "id": 4936965000922268000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4122534817953516500
+  },
+  {
+    "title": "Theory of Everything, The",
+    "author": {
+      "name": "Hawking, Stephen",
+      "id": 2644509434667366000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "Jaico",
+      "id": 8451992062521791000
+    },
+    "id": 6743549460784500000
+  },
+  {
+    "title": "New Markets & Other Essays",
+    "author": {
+      "name": "Drucker, Peter",
+      "id": 20263549482473104
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 1322777977219428900
+  },
+  {
+    "title": "Electric Universe",
+    "author": {
+      "name": "Bodanis, David",
+      "id": 6157236893726390000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 4823075832790492000
+  },
+  {
+    "title": "Hunchback of Notre Dame, The",
+    "author": {
+      "name": "Hugo, Victor",
+      "id": 1271444327551974400
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 2888814692318314500
+  },
+  {
+    "title": "Burning Bright",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 6382756956106963000
+  },
+  {
+    "title": "Age of Discontuinity, The",
+    "author": {
+      "name": "Drucker, Peter",
+      "id": 20263549482473104
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 6298566708839960000
+  },
+  {
+    "title": "Doctor in the Nude",
+    "author": {
+      "name": "Gordon, Richard",
+      "id": 6615592597732826000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 8904013375821936000
+  },
+  {
+    "title": "Down and Out in Paris & London",
+    "author": {
+      "name": "Orwell, George",
+      "id": 8032071399304484000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 297881274324819400
+  },
+  {
+    "title": "Identity & Violence",
+    "author": {
+      "name": "Sen, Amartya",
+      "id": 2381976811265281000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 8659952566410291000
+  },
+  {
+    "title": "Beyond the Three Seas",
+    "author": {
+      "name": "Dalrymple, William",
+      "id": 2046291525488623400
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Random House",
+      "id": 6976280795742821000
+    },
+    "id": 6586744586117080000
+  },
+  {
+    "title": "World's Greatest Short Stories, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Jaico",
+      "id": 8451992062521791000
+    },
+    "id": 4427866085476488700
+  },
+  {
+    "title": "Talking Straight",
+    "author": {
+      "name": "Iacoca, Lee",
+      "id": 1610055049990737400
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1947118614101118000
+  },
+  {
+    "title": "Maugham's Collected Short Stories, Vol 3",
+    "author": {
+      "name": "Maugham, William S",
+      "id": 5420045878709608000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Vintage",
+      "id": 5852678465994068000
+    },
+    "id": 786378137732428500
+  },
+  {
+    "title": "Phantom of Manhattan, The",
+    "author": {
+      "name": "Forsyth, Frederick",
+      "id": 109659158649568130
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 9193211742755335000
+  },
+  {
+    "title": "Ashenden of The British Agent",
+    "author": {
+      "name": "Maugham, William S",
+      "id": 5420045878709608000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Vintage",
+      "id": 5852678465994068000
+    },
+    "id": 4522055671843222000
+  },
+  {
+    "title": "Zen & The Art of Motorcycle Maintenance",
+    "author": {
+      "name": "Pirsig, Robert",
+      "id": 1172805124288817400
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "Vintage",
+      "id": 5852678465994068000
+    },
+    "id": 1612831444660247300
+  },
+  {
+    "title": "Great War for Civilization, The",
+    "author": {
+      "name": "Fisk, Robert",
+      "id": 7890921819538229000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "HarperCollins",
+      "id": 9204877535364297000
+    },
+    "id": 2416910892502344000
+  },
+  {
+    "title": "We the Living",
+    "author": {
+      "name": "Rand, Ayn",
+      "id": 2159342154713936000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 2442646118565976600
+  },
+  {
+    "title": "Artist and the Mathematician, The",
+    "author": {
+      "name": "Aczel, Amir",
+      "id": 5000672674426498000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "HighStakes",
+      "id": 8569541670211270000
+    },
+    "id": 890051100643823600
+  },
+  {
+    "title": "History of Western Philosophy",
+    "author": {
+      "name": "Russell, Bertrand",
+      "id": 4838058734089268000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "Routledge",
+      "id": 408336050914859500
+    },
+    "id": 7714549168408828000
+  },
+  {
+    "title": "Selected Short Stories",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Jaico",
+      "id": 8451992062521791000
+    },
+    "id": 2789650695823574500
+  },
+  {
+    "title": "Rationality & Freedom",
+    "author": {
+      "name": "Sen, Amartya",
+      "id": 2381976811265281000
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "Springer",
+      "id": 8350632895355790000
+    },
+    "id": 4660417394430920000
+  },
+  {
+    "title": "Clash of Civilizations and Remaking of the World Order",
+    "author": {
+      "name": "Huntington, Samuel",
+      "id": 4689220064211688000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "Simon&Schuster",
+      "id": 4398232714378321400
+    },
+    "id": 2642729039869121000
+  },
+  {
+    "title": "Uncommon Wisdom",
+    "author": {
+      "name": "Capra, Fritjof",
+      "id": 1486985281331884800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Fontana",
+      "id": 7771061474287146000
+    },
+    "id": 2291985274001458000
+  },
+  {
+    "title": "One",
+    "author": {
+      "name": "Bach, Richard",
+      "id": 2749330492688869000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Dell",
+      "id": 7941650310643870000
+    },
+    "id": 4599278225644076000
+  },
+  {
+    "title": "Karl Marx Biography",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1639822712910235100
+  },
+  {
+    "title": "To Sir With Love",
+    "author": {
+      "name": "Braithwaite",
+      "id": 606617035182920000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "Penguin",
+      "id": 4671402918400505000
+    },
+    "id": 1973386730528617700
+  },
+  {
+    "title": "Half A Life",
+    "author": {
+      "name": "Naipaul, V S",
+      "id": 7372108722495738000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6627494414299421000
+  },
+  {
+    "title": "Discovery of India, The",
+    "author": {
+      "name": "Nehru, Jawaharlal",
+      "id": 2116246486401977000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 7628515013568862000
+  },
+  {
+    "title": "Apulki",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5407907018827433000
+  },
+  {
+    "title": "Unpopular Essays",
+    "author": {
+      "name": "Russell, Bertrand",
+      "id": 4838058734089268000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 383602275111029800
+  },
+  {
+    "title": "Deceiver, The",
+    "author": {
+      "name": "Forsyth, Frederick",
+      "id": 109659158649568130
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1260064551043592400
+  },
+  {
+    "title": "Veil: Secret Wars of the CIA",
+    "author": {
+      "name": "Woodward, Bob",
+      "id": 3300948017692689400
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3743316053476825600
+  },
+  {
+    "title": "Char Shabda",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 579405457529891600
+  },
+  {
+    "title": "Rosy is My Relative",
+    "author": {
+      "name": "Durrell, Gerald",
+      "id": 3791615875736107500
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4548701073783731700
+  },
+  {
+    "title": "Moon and Sixpence, The",
+    "author": {
+      "name": "Maugham, William S",
+      "id": 5420045878709608000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6570473173536813000
+  },
+  {
+    "title": "Political Philosophers",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 884146046963753500
+  },
+  {
+    "title": "Short History of the World, A",
+    "author": {
+      "name": "Wells, H G",
+      "id": 6463617796565133000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 7649489002541031000
+  },
+  {
+    "title": "Trembling of a Leaf, The",
+    "author": {
+      "name": "Maugham, William S",
+      "id": 5420045878709608000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 259540502451873000
+  },
+  {
+    "title": "Doctor on the Brain",
+    "author": {
+      "name": "Gordon, Richard",
+      "id": 6615592597732826000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8163517473581445000
+  },
+  {
+    "title": "Simpsons & Their Mathematical Secrets",
+    "author": {
+      "name": "Singh, Simon",
+      "id": 5657856548011110000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 504621934342649400
+  },
+  {
+    "title": "Pattern Classification",
+    "author": {
+      "name": "Duda, Hart",
+      "id": 390803616650397100
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4563894017391042600
+  },
+  {
+    "title": "From Beirut to Jerusalem",
+    "author": {
+      "name": "Friedman, Thomas",
+      "id": 6469445931549498000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4080819928563188700
+  },
+  {
+    "title": "Code Book, The",
+    "author": {
+      "name": "Singh, Simon",
+      "id": 5657856548011110000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 7745562549624193000
+  },
+  {
+    "title": "Age of the Warrior, The",
+    "author": {
+      "name": "Fisk, Robert",
+      "id": 7890921819538229000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6842183738145021000
+  },
+  {
+    "title": "Final Crisis",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5131686115559198000
+  },
+  {
+    "title": "Killing Joke, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6842665867067902000
+  },
+  {
+    "title": "Flashpoint",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8139508349118786000
+  },
+  {
+    "title": "Batman Earth One",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6980713238200048000
+  },
+  {
+    "title": "Crisis on Infinite Earths",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4838709890866869000
+  },
+  {
+    "title": "Numbers Behind Numb3rs, The",
+    "author": {
+      "name": "Devlin, Keith",
+      "id": 2708591086016169500
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1028098948808105500
+  },
+  {
+    "title": "Superman Earth One - 1",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6984825329186642000
+  },
+  {
+    "title": "Superman Earth One - 2",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 2227810326791844600
+  },
+  {
+    "title": "Justice League: Throne of Atlantis",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 293580088776126900
+  },
+  {
+    "title": "Justice League: The Villain's Journey",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5890063050961285000
+  },
+  {
+    "title": "Death of Superman, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6982794533684164000
+  },
+  {
+    "title": "History of the DC Universe",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8984117110984360000
+  },
+  {
+    "title": "Batman: The Long Halloween",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3523789016829322000
+  },
+  {
+    "title": "Life in Letters, A",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3614576677205278000
+  },
+  {
+    "title": "Information, The",
+    "author": {
+      "name": "Gleick, James",
+      "id": 1551697143957651700
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3293418216398318000
+  },
+  {
+    "title": "Journal of Economics, vol 106 No 3",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "economics",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 7932888292892729000
+  },
+  {
+    "title": "Elements of Information Theory",
+    "author": {
+      "name": "Thomas, Joy",
+      "id": 3497310972114392600
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6222274947838483000
+  },
+  {
+    "title": "Power Electronics - Rashid",
+    "author": {
+      "name": "Rashid, Muhammad",
+      "id": 8366090209348761000
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 816921606102590200
+  },
+  {
+    "title": "Power Electronics - Mohan",
+    "author": {
+      "name": "Mohan, Ned",
+      "id": 2809894455043158500
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1228942875826843400
+  },
+  {
+    "title": "Neural Networks",
+    "author": {
+      "name": "Haykin, Simon",
+      "id": 6787069981140376000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6895969867812160000
+  },
+  {
+    "title": "Grapes of Wrath, The",
+    "author": {
+      "name": "Steinbeck, John",
+      "id": 3393001413933235000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 286680818357263100
+  },
+  {
+    "title": "Vyakti ani Valli",
+    "author": {
+      "name": "Deshpande, P L",
+      "id": 965849257653005800
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 719619652479994000
+  },
+  {
+    "title": "Statistical Learning Theory",
+    "author": {
+      "name": "Vapnik, Vladimir",
+      "id": 1679949190180002800
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8096421053927721000
+  },
+  {
+    "title": "Empire of the Mughal - The Tainted Throne",
+    "author": {
+      "name": "Rutherford, Alex",
+      "id": 5975896454639192000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 2713523363681331000
+  },
+  {
+    "title": "Empire of the Mughal - Brothers at War",
+    "author": {
+      "name": "Rutherford, Alex",
+      "id": 5975896454639192000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8142166438182775000
+  },
+  {
+    "title": "Empire of the Mughal - Ruler of the World",
+    "author": {
+      "name": "Rutherford, Alex",
+      "id": 5975896454639192000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4579400361443254000
+  },
+  {
+    "title": "Empire of the Mughal - The Serpent's Tooth",
+    "author": {
+      "name": "Rutherford, Alex",
+      "id": 5975896454639192000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3579581462144122400
+  },
+  {
+    "title": "Empire of the Mughal - Raiders from the North",
+    "author": {
+      "name": "Rutherford, Alex",
+      "id": 5975896454639192000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5858440976999594000
+  },
+  {
+    "title": "Mossad",
+    "author": {
+      "name": "Baz-Zohar, Michael",
+      "id": 7942600883289086000
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1873685698994830300
+  },
+  {
+    "title": "Jim Corbett Omnibus",
+    "author": {
+      "name": "Corbett, Jim",
+      "id": 3210681417242281000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5099991430239998000
+  },
+  {
+    "title": "20000 Leagues Under the Sea",
+    "author": {
+      "name": "Verne, Jules",
+      "id": 6383758711190131000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1125315781106230000
+  },
+  {
+    "title": "Batatyachi Chal",
+    "author": {
+      "name": "Deshpande P L",
+      "id": 1903807394254733300
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5908168230263313000
+  },
+  {
+    "title": "Hafasavnuk",
+    "author": {
+      "name": "Deshpande P L",
+      "id": 1903807394254733300
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6593596493311898000
+  },
+  {
+    "title": "Urlasurla",
+    "author": {
+      "name": "Deshpande P L",
+      "id": 1903807394254733300
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4865484370194889000
+  },
+  {
+    "title": "Pointers in C",
+    "author": {
+      "name": "Kanetkar, Yashwant",
+      "id": 621216034042248700
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8949455647198039000
+  },
+  {
+    "title": "Cathedral and the Bazaar, The",
+    "author": {
+      "name": "Raymond, Eric",
+      "id": 8412697619783719000
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 182079148026103500
+  },
+  {
+    "title": "Design with OpAmps",
+    "author": {
+      "name": "Franco, Sergio",
+      "id": 233693205456830600
+    },
+    "genre": "computer_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3946833896734660600
+  },
+  {
+    "title": "Think Complexity",
+    "author": {
+      "name": "Downey, Allen",
+      "id": 7084989297749480000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4829684984824584000
+  },
+  {
+    "title": "Devil's Advocate, The",
+    "author": {
+      "name": "West, Morris",
+      "id": 5995032593708160000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 981815615668844700
+  },
+  {
+    "title": "Ayn Rand Answers",
+    "author": {
+      "name": "Rand, Ayn",
+      "id": 2159342154713936000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6746869131070470000
+  },
+  {
+    "title": "Philosophy: Who Needs It",
+    "author": {
+      "name": "Rand, Ayn",
+      "id": 2159342154713936000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8113509231749444000
+  },
+  {
+    "title": "World's Great Thinkers, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1440023097214280700
+  },
+  {
+    "title": "Data Analysis with Open Source Tools",
+    "author": {
+      "name": "Janert, Phillip",
+      "id": 2017468037476804000
+    },
+    "genre": "data_science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1856054039969432800
+  },
+  {
+    "title": "Broca's Brain",
+    "author": {
+      "name": "Sagan, Carl",
+      "id": 3819084600392115700
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 7097307435538830000
+  },
+  {
+    "title": "Men of Mathematics",
+    "author": {
+      "name": "Bell, E T",
+      "id": 3633227628553427500
+    },
+    "genre": "mathematics",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3221153823472800300
+  },
+  {
+    "title": "Oxford book of Modern Science Writing",
+    "author": {
+      "name": "Dawkins, Richard",
+      "id": 8033539878068100000
+    },
+    "genre": "science",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6203125674119862000
+  },
+  {
+    "title": "Justice, Judiciary and Democracy",
+    "author": {
+      "name": "Ranjan, Sudhanshu",
+      "id": 8702100880825460000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 2423038380047495000
+  },
+  {
+    "title": "Arthashastra, The",
+    "author": {
+      "name": "Kautiyla",
+      "id": 2624772594770969000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 131271165122902660
+  },
+  {
+    "title": "We the People",
+    "author": {
+      "name": "Palkhivala",
+      "id": 5054953011033692000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1080528767186232800
+  },
+  {
+    "title": "We the Nation",
+    "author": {
+      "name": "Palkhivala",
+      "id": 5054953011033692000
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 1245641464093971500
+  },
+  {
+    "title": "Courtroom Genius, The",
+    "author": {
+      "name": "Sorabjee",
+      "id": 575834699599211900
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8014842587583165000
+  },
+  {
+    "title": "Dongri to Dubai",
+    "author": {
+      "name": "Zaidi, Hussain",
+      "id": 2725673066094926000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6847362989531068000
+  },
+  {
+    "title": "History of England, Foundation",
+    "author": {
+      "name": "Ackroyd, Peter",
+      "id": 3569480907563458600
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 7758436201180836000
+  },
+  {
+    "title": "City of Djinns",
+    "author": {
+      "name": "Dalrymple, William",
+      "id": 2046291525488623400
+    },
+    "genre": "history",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 2481854284012780500
+  },
+  {
+    "title": "India's Legal System",
+    "author": {
+      "name": "Nariman",
+      "id": 5778181352648992000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5114627245299511000
+  },
+  {
+    "title": "More Tears to Cry",
+    "author": {
+      "name": "Sassoon, Jean",
+      "id": 7788308534990271000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5952407458287718000
+  },
+  {
+    "title": "Ropemaker, The",
+    "author": {
+      "name": "Dickinson, Peter",
+      "id": 9206269479676476000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4300577833007851500
+  },
+  {
+    "title": "Angels & Demons",
+    "author": {
+      "name": "Brown, Dan",
+      "id": 1596128409163789600
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3071641022580641300
+  },
+  {
+    "title": "Judge, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 5931754344640045000
+  },
+  {
+    "title": "Attorney, The",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8888663962246440000
+  },
+  {
+    "title": "Prince, The",
+    "author": {
+      "name": "Machiavelli",
+      "id": 2271857120467864600
+    },
+    "genre": "philosophy",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6190106785698783000
+  },
+  {
+    "title": "Eyeless in Gaza",
+    "author": {
+      "name": "Huxley, Aldous",
+      "id": 3458075093062959600
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4255083920079071000
+  },
+  {
+    "title": "Tales of Beedle the Bard",
+    "author": {
+      "name": "Rowling, J K",
+      "id": 7726561061051654000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 167053044296343940
+  },
+  {
+    "title": "Girl with the Dragon Tattoo",
+    "author": {
+      "name": "Larsson, Steig",
+      "id": 4300138939279134000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4356870141499500500
+  },
+  {
+    "title": "Girl who kicked the Hornet's Nest",
+    "author": {
+      "name": "Larsson, Steig",
+      "id": 4300138939279134000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3086333029175403500
+  },
+  {
+    "title": "Girl who played with Fire",
+    "author": {
+      "name": "Larsson, Steig",
+      "id": 4300138939279134000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8679890573513662000
+  },
+  {
+    "title": "Batman Handbook",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "comic",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 8369006060861689000
+  },
+  {
+    "title": "Murphy's Law",
+    "author": {
+      "name": "",
+      "id": 8383803182272512000
+    },
+    "genre": "nonfiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3643983329161861600
+  },
+  {
+    "title": "Structure and Randomness",
+    "author": {
+      "name": "Tao, Terence",
+      "id": 4573334707462733300
+    },
+    "genre": "mathematics",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 402764563935438000
+  },
+  {
+    "title": "Image Processing with MATLAB",
+    "author": {
+      "name": "Eddins, Steve",
+      "id": 3850363014502480400
+    },
+    "genre": "signal_processing",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 4687822759667087000
+  },
+  {
+    "title": "Animal Farm",
+    "author": {
+      "name": "Orwell, George",
+      "id": 8032071399304484000
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 6576072258294307000
+  },
+  {
+    "title": "Idiot, The",
+    "author": {
+      "name": "Dostoevsky, Fyodor",
+      "id": 3117480115130880500
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3257701147932222500
+  },
+  {
+    "title": "Christmas Carol, A",
+    "author": {
+      "name": "Dickens, Charles",
+      "id": 599656791718054500
+    },
+    "genre": "fiction",
+    "rating": 0,
+    "publisher": {
+      "name": "",
+      "id": 6077377690050986000
+    },
+    "id": 3344024435507110000
+  }
+]

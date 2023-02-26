@@ -27,7 +27,7 @@ public class BookDatasetService {
 
         for (BookDatasetEntity datasetEntity : dataset) {
             Book book = new Book();
-            book.setTitle(datasetEntity.getTitle());
+            book.setName(datasetEntity.getTitle());
             book.setGenre(datasetEntity.getGenre());
 
             Author author = findAuthorByName(authors, datasetEntity.getAuthor());

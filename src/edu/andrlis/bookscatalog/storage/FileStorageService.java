@@ -1,12 +1,10 @@
-package edu.andrlis.bookscatalog.service;
+package edu.andrlis.bookscatalog.storage;
 
 import com.google.gson.Gson;
-import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
 
 import java.io.*;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
