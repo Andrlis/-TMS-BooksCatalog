@@ -1,13 +1,6 @@
 import com.google.gson.reflect.TypeToken;
 import edu.andrlis.bookscatalog.Application;
-import edu.andrlis.bookscatalog.console.ConsoleApplication;
-import edu.andrlis.bookscatalog.entity.Author;
-import edu.andrlis.bookscatalog.service.AuthorCatalogService;
-import edu.andrlis.bookscatalog.service.CatalogService;
-import edu.andrlis.bookscatalog.storage.FileStorageService;
-
-import java.util.List;
-import java.util.Optional;
+import edu.andrlis.bookscatalog.console.ConsoleApplicationWithFileStorage;
 
 /**
  * @author Andrei Lisouski (Andrlis)
@@ -84,7 +77,7 @@ public class Main {
 ////            System.out.println(author.toString());
 ////        }
 
-        Application application = new ConsoleApplication();
+        Application application = new ConsoleApplicationWithFileStorage();
         application.run();
     }
 }

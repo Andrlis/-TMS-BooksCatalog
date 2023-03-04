@@ -1,4 +1,4 @@
-package edu.andrlis.bookscatalog.storage;
+package edu.andrlis.bookscatalog.storage.file;
 
 import com.google.gson.Gson;
 
@@ -11,7 +11,7 @@ import java.util.List;
  * @author Andrei Lisouski (Andrlis)
  * @created 13/02/2023 - 00:44
  */
-public class FileStorageService<T> implements Storable<T> {
+public class FileStorageService<T> implements FileStorage<T> {
 
     private String filePath;
 

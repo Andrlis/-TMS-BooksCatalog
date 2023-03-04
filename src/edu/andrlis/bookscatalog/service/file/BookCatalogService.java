@@ -1,7 +1,6 @@
-package edu.andrlis.bookscatalog.service;
+package edu.andrlis.bookscatalog.service.file;
 
 import edu.andrlis.bookscatalog.entity.Book;
-import edu.andrlis.bookscatalog.entity.Publisher;
 
 import java.util.List;
 import java.util.Optional;
@@ -9,7 +8,7 @@ import java.util.Optional;
 /**
  * @author Andrei Lisouski (Andrlis) - 26/02/2023 - 23:24
  */
-public class BookCatalogService implements CatalogService<Book> {
+public class BookCatalogService implements FileCatalogService<Book> {
     @Override
     public boolean validate(Book item) {
         return true;

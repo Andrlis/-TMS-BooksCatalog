@@ -1,108 +1,142 @@
 package edu.andrlis.bookscatalog.console;
 
-import com.google.gson.reflect.TypeToken;
 import edu.andrlis.bookscatalog.Application;
-import edu.andrlis.bookscatalog.entity.Author;
-import edu.andrlis.bookscatalog.entity.Book;
-import edu.andrlis.bookscatalog.entity.Publisher;
 import edu.andrlis.bookscatalog.exception.InvalidInputException;
-import edu.andrlis.bookscatalog.service.AuthorCatalogService;
-import edu.andrlis.bookscatalog.service.BookCatalogService;
-import edu.andrlis.bookscatalog.service.CatalogService;
-import edu.andrlis.bookscatalog.service.PublisherCatalogService;
-import edu.andrlis.bookscatalog.storage.FileStorageService;
-import edu.andrlis.bookscatalog.utils.AppConstants;
 import edu.andrlis.bookscatalog.utils.Reader;
-
-import java.io.File;
-import java.util.List;
+import edu.andrlis.bookscatalog.utils.Writer;
 
 /**
- * @author Andrei Lisouski (Andrlis) - 26/02/2023 - 21:29
+ * @author Andrei Lisouski (Andrlis) 04/03/2023 - 17:30
  */
-public class ConsoleApplication implements Application {
+public abstract class ConsoleApplication implements Application {
 
-    private List<Book> booksList;
-    private List<Author> authorsList;
-    private List<Publisher> publishersList;
-
-    @Override
-    public void run() {
-        if (!isAppInitialized()) {
-
-        }
-        readDataFromSources();
-        CatalogService<Author> authorCatalogService = new AuthorCatalogService();
-        CatalogService<Book> bookCatalogService = new BookCatalogService();
-        CatalogService<Publisher> publisherCatalogService = new PublisherCatalogService();
-
-        while (true) {
-            showMenu();
-            int selectedMenuOption = readMenuOption();
-
-
-
-        }
-    }
-
-    private void showMenu() {
-        System.out.println("Please, select an operation:\n"
+    public Writer writer = new ConsoleWriter();
+    public Reader reader = new ConsoleReader();
+    public void showMenu() {
+        writer.write("Please, select an operation:\n"
                 + "\n\t1 - Show"
                 + "\n\t2 - Find"
                 + "\n\t3 - Add new"
                 + "\n\t0 - Exit");
     }
 
-    private void showSubMenu(int parentMenu) {
+    public void showSubMenu(int parentMenu) {
         switch (parentMenu) {
-            case 1 -> System.out.println("Show:\n"
-                    + "\n\t1 - Books"
-                    + "\n\t2 - Authors"
-                    + "\n\t3 - Publishers"
-                    + "\n\t0 - Break");
-            case 2 -> System.out.println("Find:\n"
-                    + "\n\t1 - Find book by name"
-                    + "\n\t2 - Find books by author"
-                    + "\n\t3 - Find books by publisher"
-                    + "\n\t4 - Find author by name"
-                    + "\n\t5 - Find publisher by name"
-                    + "\n\t0 - Break");
+            case 1:
+                writer.write("Show:\n"
+                        + "\n\t1 - Books"
+                        + "\n\t2 - Authors"
+                        + "\n\t3 - Publishers"
+                        + "\n\t0 - Break");
+                break;
+            case 2:
+                writer.write("Find:\n"
+                        + "\n\t1 - Find book by name"
+                        + "\n\t2 - Find books by author"
+                        + "\n\t3 - Find books by publisher"
+                        + "\n\t4 - Find author by name"
+                        + "\n\t5 - Find publisher by name"
+                        + "\n\t0 - Break");
+                break;
+            case 3:
+                writer.write("Add new:\n"
+                        + "\n\t1 - Book"
+                        + "\n\t2 - Author"
+                        + "\n\t3 - Publisher");
+                break;
+            default:
+                writer.write("default");
         }
     }
 
-    private boolean isAppInitialized() {
-        File bookSourceFile = new File(AppConstants.BOOK_SOURCE_FILE);
-        File authorSourceFile = new File(AppConstants.AUTHOR_SOURCE_FILE);
-        File publisherSourceFile = new File(AppConstants.PUBLISHER_SOURCE_FILE);
-
-        return (bookSourceFile.exists() && authorSourceFile.exists() && publisherSourceFile.exists());
-    }
-
-    private void readDataFromSources() {
-        FileStorageService<Author> authorFileStorageService = new FileStorageService<>(AppConstants.AUTHOR_SOURCE_FILE);
-        FileStorageService<Book> bookFileStorageService = new FileStorageService<>(AppConstants.BOOK_SOURCE_FILE);
-        FileStorageService<Publisher> publishersFileStorageService = new FileStorageService<>(AppConstants.PUBLISHER_SOURCE_FILE);
-
-        this.booksList = bookFileStorageService.getAll(new TypeToken<List<Book>>() {
-        }.getType());
-        this.authorsList = authorFileStorageService.getAll(new TypeToken<List<Author>>() {
-        }.getType());
-        this.publishersList = publishersFileStorageService.getAll(new TypeToken<List<Publisher>>() {
-        }.getType());
-    }
-
-    private int readMenuOption() {
+    public int readMenuOption() {
 //        try (ConsoleReader reader = new ConsoleReader()) {
 //            return reader.readInt();
 //        } catch (Exception e) {
 //            System.err.println(e.getMessage());
 //        }
-        Reader reader = new ConsoleReader();
         try {
             return reader.readInt();
         } catch (InvalidInputException e) {
-            System.err.println(e.getMessage());;
+            System.err.println(e.getMessage());
+            ;
         }
         return -1;
     }
+
+    @Override
+    public void run() {
+        while (true) {
+            showMenu();
+            int selectedMenuOption = readMenuOption();
+
+            if (selectedMenuOption == 0) {
+                break;
+            }
+
+            showSubMenu(selectedMenuOption);
+            int selectedSubMenuOption = readMenuOption();
+
+            switch (selectedMenuOption * 10 + selectedSubMenuOption) {
+                case 11:
+                    //Show all books
+                    showAllBooks();
+                    break;
+                case 12:
+                    //Show all authors
+                    showAllAuthors();
+                    break;
+                case 13:
+                    //Show all publishers
+                    showAllPublishers();
+                    break;
+                case 21:
+                    //Find book by name
+                    findBookByName();
+                    break;
+                case 22:
+                    //Find books by author
+                    findBooksByAuthor();
+                    break;
+                case 23:
+                    //Find books by publisher
+                    findBooksByPublisher();
+                    break;
+                case 24:
+                    //Find author by name
+                    findAuthorByName();
+                    break;
+                case 25:
+                    //Find publisher by name
+                    findPublisherByName();
+                    break;
+                case 31:
+                    //Add new book
+                    addNewBook();
+                    break;
+                case 32:
+                    //Add new author
+                    addNewAuthor();
+                    break;
+                case 33:
+                    //Add new publisher
+                    addNewPublisher();
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    public abstract void showAllBooks();
+    public abstract void showAllAuthors();
+    public abstract void showAllPublishers();
+    public abstract void findBookByName();
+    public abstract void findBooksByAuthor();
+    public abstract void findBooksByPublisher();
+    public abstract void findAuthorByName();
+    public abstract void findPublisherByName();
+    public abstract void addNewBook();
+    public abstract void addNewAuthor();
+    public abstract void addNewPublisher();
 }

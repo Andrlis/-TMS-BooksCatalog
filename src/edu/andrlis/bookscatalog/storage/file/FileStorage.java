@@ -1,7 +1,4 @@
-package edu.andrlis.bookscatalog.storage;
-
-import edu.andrlis.bookscatalog.entity.AbstractCatalogItem;
-import edu.andrlis.bookscatalog.entity.Book;
+package edu.andrlis.bookscatalog.storage.file;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -10,7 +7,7 @@ import java.util.List;
  * @author Andrei Lisouski (Andrlis)
  * @created 12/02/2023 - 23:54
  */
-public interface Storable<T> {
+public interface FileStorage<T> {
 
     void save(T item);
 
