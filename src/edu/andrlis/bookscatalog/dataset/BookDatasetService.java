@@ -17,7 +17,7 @@ public class BookDatasetService {
                 .map(i -> new Author(i)).collect(Collectors.toList());
     }
 
-    public List<Publisher> getPublisher(List<BookDatasetEntity> dataset) {
+    public List<Publisher> getPublishers(List<BookDatasetEntity> dataset) {
         return dataset.stream().map(BookDatasetEntity::getPublisher).distinct()
                 .map(i -> new Publisher(i)).collect(Collectors.toList());
     }

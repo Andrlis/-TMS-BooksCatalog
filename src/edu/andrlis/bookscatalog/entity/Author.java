@@ -6,7 +6,7 @@ package edu.andrlis.bookscatalog.entity;
  */
 public class Author extends AbstractCatalogItem {
 
-    public Author(long id, String name) {
+    public Author(int id, String name) {
         super(id, name);
     }
 

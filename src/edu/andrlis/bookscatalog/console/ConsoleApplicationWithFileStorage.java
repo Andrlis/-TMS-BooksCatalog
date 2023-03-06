@@ -96,24 +96,40 @@ public class ConsoleApplicationWithFileStorage extends ConsoleApplication {
 //        }
 //    }
 //
-//    private boolean isAppInitialized() {
-//        File bookSourceFile = new File(AppConstants.BOOK_SOURCE_FILE);
-//        File authorSourceFile = new File(AppConstants.AUTHOR_SOURCE_FILE);
-//        File publisherSourceFile = new File(AppConstants.PUBLISHER_SOURCE_FILE);
-//
-//        return (bookSourceFile.exists() && authorSourceFile.exists() && publisherSourceFile.exists());
-//    }
-//
-//    private void readDataFromSources() {
-//        FileStorageService<Author> authorFileStorageService = new FileStorageService<>(AppConstants.AUTHOR_SOURCE_FILE);
-//        FileStorageService<Book> bookFileStorageService = new FileStorageService<>(AppConstants.BOOK_SOURCE_FILE);
-//        FileStorageService<Publisher> publishersFileStorageService = new FileStorageService<>(AppConstants.PUBLISHER_SOURCE_FILE);
-//
-//        this.booksList = bookFileStorageService.getAll(new TypeToken<List<Book>>() {
-//        }.getType());
-//        this.authorsList = authorFileStorageService.getAll(new TypeToken<List<Author>>() {
-//        }.getType());
-//        this.publishersList = publishersFileStorageService.getAll(new TypeToken<List<Publisher>>() {
-//        }.getType());
-//    }
+    @Override
+    public boolean isAppInitialized() {
+        File bookSourceFile = new File(AppConstants.BOOK_SOURCE_FILE);
+        File authorSourceFile = new File(AppConstants.AUTHOR_SOURCE_FILE);
+        File publisherSourceFile = new File(AppConstants.PUBLISHER_SOURCE_FILE);
+
+        return (bookSourceFile.exists() && authorSourceFile.exists() && publisherSourceFile.exists());
+    }
+
+    @Override
+    public void saveBooksFromDataset(List<Book> bookList) {
+
+    }
+
+    @Override
+    public void saveAuthorsFromDataset(List<Author> authorList) {
+
+    }
+
+    @Override
+    public void savePublishersFromDataset(List<Publisher> publisherList) {
+
+    }
+
+    private void readDataFromSources() {
+        FileStorageService<Author> authorFileStorageService = new FileStorageService<>(AppConstants.AUTHOR_SOURCE_FILE);
+        FileStorageService<Book> bookFileStorageService = new FileStorageService<>(AppConstants.BOOK_SOURCE_FILE);
+        FileStorageService<Publisher> publishersFileStorageService = new FileStorageService<>(AppConstants.PUBLISHER_SOURCE_FILE);
+
+        this.booksList = bookFileStorageService.getAll(new TypeToken<List<Book>>() {
+        }.getType());
+        this.authorsList = authorFileStorageService.getAll(new TypeToken<List<Author>>() {
+        }.getType());
+        this.publishersList = publishersFileStorageService.getAll(new TypeToken<List<Publisher>>() {
+        }.getType());
+    }
 }

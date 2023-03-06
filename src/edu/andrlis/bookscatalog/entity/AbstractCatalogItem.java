@@ -1,7 +1,6 @@
 package edu.andrlis.bookscatalog.entity;
 
-import java.time.LocalDateTime;
-import java.time.temporal.ChronoField;
+import java.util.Date;
 import java.util.Random;
 
 /**
@@ -10,10 +9,10 @@ import java.util.Random;
  */
 public abstract class AbstractCatalogItem {
 
-    private long id;
+    private int id;
     private String name;
 
-    public AbstractCatalogItem(long id, String name) {
+    public AbstractCatalogItem(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -27,11 +26,11 @@ public abstract class AbstractCatalogItem {
         this.id = generateId();
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -43,8 +42,8 @@ public abstract class AbstractCatalogItem {
         this.name = name;
     }
 
-    private long generateId() {
+    private int generateId() {
         Random random = new Random();
-        return Math.abs(LocalDateTime.now().getLong(ChronoField.NANO_OF_SECOND) + random.nextLong());
+        return Math.abs((int)(new Date().getTime()/1000) + random.nextInt());
     }
 }

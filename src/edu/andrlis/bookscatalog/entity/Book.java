@@ -1,5 +1,7 @@
 package edu.andrlis.bookscatalog.entity;
 
+import java.util.Optional;
+
 /**
  * @author Andrei Lisouski (Andrlis)
  * @created 12/02/2023 - 23:13
@@ -7,10 +9,10 @@ package edu.andrlis.bookscatalog.entity;
 public class Book extends AbstractCatalogItem {
     private Author author;
     private String genre;
-    private int rating;
+    private double rating;
     private Publisher publisher;
 
-    public Book(long id, String name, Author author, String genre, int rating, Publisher publisher) {
+    public Book(int id, String name, Author author, String genre, double rating, Publisher publisher) {
         super(id, name);
         this.author = author;
         this.genre = genre;
@@ -18,7 +20,7 @@ public class Book extends AbstractCatalogItem {
         this.publisher = publisher;
     }
 
-    public Book(String name, Author author, String genre, int rating, Publisher publisher) {
+    public Book(String name, Author author, String genre, double rating, Publisher publisher) {
         super(name);
         this.author = author;
         this.genre = genre;
@@ -32,14 +34,14 @@ public class Book extends AbstractCatalogItem {
 
     public Book(Book book) {
         super(book.getId(), book.getName());
-        this.author = book.getAuthor();
+        this.author = book.getAuthor().orElse(null);
         this.genre = book.getGenre();
         this.rating = book.getRating();
-        this.publisher = book.getPublisher();
+        this.publisher = book.getPublisher().orElse(null);
     }
 
-    public Author getAuthor() {
-        return author;
+    public Optional<Author> getAuthor() {
+        return Optional.of(this.author);
     }
 
     public void setAuthor(Author author) {
@@ -54,16 +56,16 @@ public class Book extends AbstractCatalogItem {
         this.genre = genre;
     }
 
-    public int getRating() {
+    public double getRating() {
         return rating;
     }
 
-    public void setRating(int rating) {
+    public void setRating(double rating) {
         this.rating = rating;
     }
 
-    public Publisher getPublisher() {
-        return publisher;
+    public Optional<Publisher> getPublisher() {
+        return Optional.of(this.publisher);
     }
 
     public void setPublisher(Publisher publisher) {

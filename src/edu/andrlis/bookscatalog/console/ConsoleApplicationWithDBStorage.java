@@ -3,9 +3,9 @@ package edu.andrlis.bookscatalog.console;
 import edu.andrlis.bookscatalog.entity.Author;
 import edu.andrlis.bookscatalog.entity.Book;
 import edu.andrlis.bookscatalog.entity.Publisher;
-import edu.andrlis.bookscatalog.storage.db.JDBCAuthorStorageService;
-import edu.andrlis.bookscatalog.storage.db.JDBCBookStorageService;
-import edu.andrlis.bookscatalog.storage.db.JDBCPublisherStorageService;
+import edu.andrlis.bookscatalog.storage.db.JDBCAuthorStorage;
+import edu.andrlis.bookscatalog.storage.db.JDBCBookStorage;
+import edu.andrlis.bookscatalog.storage.db.JDBCPublisherStorage;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import java.util.List;
  */
 public class ConsoleApplicationWithDBStorage extends ConsoleApplication {
 
-    private JDBCBookStorageService bookStorageService = new JDBCBookStorageService();
-    private JDBCAuthorStorageService authorStorageService = new JDBCAuthorStorageService();
-    private JDBCPublisherStorageService publisherStorageService = new JDBCPublisherStorageService();
+    private JDBCBookStorage bookStorageService = new JDBCBookStorage();
+    private JDBCAuthorStorage authorStorageService = new JDBCAuthorStorage();
+    private JDBCPublisherStorage publisherStorageService = new JDBCPublisherStorage();
 
     @Override
     public void showAllBooks() {
@@ -106,4 +106,31 @@ public class ConsoleApplicationWithDBStorage extends ConsoleApplication {
     public void addNewPublisher() {
 
     }
+
+    @Override
+    public boolean isAppInitialized() {
+        return bookStorageService.getCount() != 0;
+    }
+
+    @Override
+    public void saveBooksFromDataset(List<Book> bookList) {
+        for (Book book : bookList) {
+            bookStorageService.addWithId(book);
+        }
+    }
+
+    @Override
+    public void saveAuthorsFromDataset(List<Author> authorList) {
+        for (Author author : authorList) {
+            authorStorageService.addWithId(author);
+        }
+    }
+
+    @Override
+    public void savePublishersFromDataset(List<Publisher> publisherList) {
+        for (Publisher publisher : publisherList) {
+            publisherStorageService.addWithId(publisher);
+        }
+    }
+
 }

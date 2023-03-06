@@ -1,6 +1,7 @@
-import com.google.gson.reflect.TypeToken;
 import edu.andrlis.bookscatalog.Application;
-import edu.andrlis.bookscatalog.console.ConsoleApplicationWithFileStorage;
+import edu.andrlis.bookscatalog.console.ConsoleApplicationWithDBStorage;
+import edu.andrlis.bookscatalog.entity.Author;
+import edu.andrlis.bookscatalog.storage.db.JDBCAuthorStorage;
 
 /**
  * @author Andrei Lisouski (Andrlis)
@@ -77,7 +78,12 @@ public class Main {
 ////            System.out.println(author.toString());
 ////        }
 
-        Application application = new ConsoleApplicationWithFileStorage();
+        Application application = new ConsoleApplicationWithDBStorage();
         application.run();
+
+//        Author author = new Author("Test");
+//        JDBCAuthorStorage authorStorageService = new JDBCAuthorStorage();
+//
+//        authorStorageService.add(author);
     }
 }

@@ -1,9 +1,17 @@
 package edu.andrlis.bookscatalog.console;
 
 import edu.andrlis.bookscatalog.Application;
+import edu.andrlis.bookscatalog.dataset.BookDatasetEntity;
+import edu.andrlis.bookscatalog.dataset.BookDatasetReader;
+import edu.andrlis.bookscatalog.dataset.BookDatasetService;
+import edu.andrlis.bookscatalog.entity.Author;
+import edu.andrlis.bookscatalog.entity.Book;
+import edu.andrlis.bookscatalog.entity.Publisher;
 import edu.andrlis.bookscatalog.exception.InvalidInputException;
 import edu.andrlis.bookscatalog.utils.Reader;
 import edu.andrlis.bookscatalog.utils.Writer;
+
+import java.util.List;
 
 /**
  * @author Andrei Lisouski (Andrlis) 04/03/2023 - 17:30
@@ -12,6 +20,11 @@ public abstract class ConsoleApplication implements Application {
 
     public Writer writer = new ConsoleWriter();
     public Reader reader = new ConsoleReader();
+
+    private BookDatasetService bookDatasetService = new BookDatasetService();
+
+    BookDatasetReader bookDatasetReader = new BookDatasetReader();
+
     public void showMenu() {
         writer.write("Please, select an operation:\n"
                 + "\n\t1 - Show"
@@ -66,6 +79,17 @@ public abstract class ConsoleApplication implements Application {
 
     @Override
     public void run() {
+        if (!isAppInitialized()) {
+            List<BookDatasetEntity> dataset = bookDatasetReader.readDataset();
+            List<Author> authorList = bookDatasetService.getAuthors(dataset);
+            List<Publisher> publisherList = bookDatasetService.getPublishers(dataset);
+            List<Book> bookList = bookDatasetService.getBooks(dataset, authorList, publisherList);
+
+            saveAuthorsFromDataset(authorList);
+            savePublishersFromDataset(publisherList);
+            saveBooksFromDataset(bookList);
+        }
+
         while (true) {
             showMenu();
             int selectedMenuOption = readMenuOption();
@@ -129,14 +153,32 @@ public abstract class ConsoleApplication implements Application {
     }
 
     public abstract void showAllBooks();
+
     public abstract void showAllAuthors();
+
     public abstract void showAllPublishers();
+
     public abstract void findBookByName();
+
     public abstract void findBooksByAuthor();
+
     public abstract void findBooksByPublisher();
+
     public abstract void findAuthorByName();
+
     public abstract void findPublisherByName();
+
     public abstract void addNewBook();
+
     public abstract void addNewAuthor();
+
     public abstract void addNewPublisher();
+
+    public abstract boolean isAppInitialized();
+
+    public abstract void saveBooksFromDataset(List<Book> bookList);
+
+    public abstract void saveAuthorsFromDataset(List<Author> authorList);
+
+    public abstract void savePublishersFromDataset(List<Publisher> publisherList);
 }

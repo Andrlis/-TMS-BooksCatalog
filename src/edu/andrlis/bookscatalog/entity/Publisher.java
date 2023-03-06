@@ -5,7 +5,7 @@ package edu.andrlis.bookscatalog.entity;
  * @created 13/02/2023 - 02:01
  */
 public class Publisher extends AbstractCatalogItem {
-    public Publisher(long id, String name) {
+    public Publisher(int id, String name) {
         super(id, name);
     }
 

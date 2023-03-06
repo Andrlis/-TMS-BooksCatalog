@@ -10,13 +10,15 @@ public interface DBStorage<T> {
 
     void add(T item);
 
+    void addWithId(T item);
+
     List<T> getAll();
 
-    Optional<T> getById(long id);
+    Optional<T> getById(int id);
 
     List<T> getByName(String name);
 
-    void deleteById(long id);
+    void deleteById(int id);
 
     void update(T item);
 }
